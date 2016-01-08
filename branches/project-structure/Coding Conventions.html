@@ -52,6 +52,62 @@
             <li>Prototypes must use Checkstyle, and have the correct Clean Up and Formatter and Templates.</li> 
             <li>Prototypes don’t need Unit Tests</li> 
             <li>Prototypes don’t need to be documented as well as the normal source code.</li> 
+        </ul> 
+        <h2>Javadoc Style Convention</h2> 
+        <p>All parts of the Javadoc are written as full sentences, including that they begin with a capital letter and end with a full stop.</p> 
+        <h3>Naming Convention</h3> 
+        <ul> 
+            <li>
+                Class names are written in UpperCamelCase 
+                <a href="https://google.github.io/styleguide/javaguide.html#s5.3-camel-case">as defined by Google</a>
+                (
+                <a href="https://web.archive.org/web/20151208081251/https://google.github.io/styleguide/javaguide.html#s5.3-camel-case">archived</a>
+                ) and have a minimum length of 3 characters.
+            </li> 
+            <li>
+                Method names are written in lowerCamelCase 
+                <a href="https://google.github.io/styleguide/javaguide.html#s5.3-camel-case">as defined by Google</a>
+                (
+                <a href="https://web.archive.org/web/20151208081251/https://google.github.io/styleguide/javaguide.html#s5.3-camel-case">archived</a>
+                ) and have a minimum length of 3 characters.
+            </li> 
+            <li>
+                Attributes are written in lowerCamelCase 
+                <a href="https://google.github.io/styleguide/javaguide.html#s5.3-camel-case">as defined by Google</a>
+                (
+                <a href="https://web.archive.org/web/20151208081251/https://google.github.io/styleguide/javaguide.html#s5.3-camel-case">archived</a>
+                ) and have a minimum length of 3 characters.
+            </li> 
+            <li>Package names are written in lowercase and have a minimum length of 2 characters per part.</li> 
+        </ul> 
+        <h3>Use of Acronyms</h3> 
+        <ul> 
+            <li>Only acronyms used in the SRS are permitted.</li> 
+            <li>
+                Acronyms are treated as normal words and are spelled as specified in 
+                <code>Naming Convention</code>
+                . They are not capitalised.
+            </li> 
+        </ul> 
+        <h3>Tags</h3> 
+        <ul> 
+            <li>
+                <code>@param</code>
+                 and 
+                <code>@returns</code>
+                 tags have to state their value ranges if they refer to primitive data types as well as stating whether they can be 
+                <code>null</code>
+                 and the meaning of them being 
+                <code>null</code>
+                 if they refer to object data types.
+            </li> 
+            <li>
+                Unnecessarily stating the package when using 
+                <code>{@link}</code>
+                 or 
+                <code>{@see}</code>
+                 tags is forbidden.
+            </li> 
         </ul>  
     </body>
 </html>
