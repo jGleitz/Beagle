@@ -7,7 +7,6 @@ de.uka.ipd.sdq.beagle.core.measurement.order
 de.uka.ipd.sdq.beagle.core.pcmconnection
 de.uka.ipd.sdq.beagle.gui
 de.uka.ipd.sdq.beagle.gui.contextmenus
-de.uka.ipd.sdq.beagle.prototype.eclipsebuild
 org.eclipse.core.commands
 org.eclipse.jface.dialogs
 org.eclipse.jface.wizard
