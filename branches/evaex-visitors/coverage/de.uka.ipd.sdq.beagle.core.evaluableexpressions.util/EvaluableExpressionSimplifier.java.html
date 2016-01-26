@@ -191,7 +191,7 @@ import java.util.List;
 			public void visit(final AdditionExpression expression) {
 				// the addition expression must be flat (⇔ contain no other
 				// AdditionExpression) at this point.
-<span class="nc" id="L194">				AdditionSimplifier.this.summands.addAll(expression.getSummands());</span>
+<span class="nc" id="L194">				AdditionSimplifier.this.negativePart.addAll(expression.getSummands());</span>
 <span class="nc" id="L195">			}</span>
 
 			@Override
