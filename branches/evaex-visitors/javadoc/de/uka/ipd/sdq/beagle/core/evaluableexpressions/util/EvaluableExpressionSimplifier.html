@@ -117,8 +117,8 @@ extends <a href="../../../../../../../../de/uka/ipd/sdq/beagle/core/evaluableexp
 <div class="block">Produces shorter versions of unnecessarily complex <a href="../../../../../../../../de/uka/ipd/sdq/beagle/core/evaluableexpressions/EvaluableExpression.html" title="interface in de.uka.ipd.sdq.beagle.core.evaluableexpressions">EvaluableExpressions</a>. The class aims to reduce the number of an expressions’s inner
  expressions on a best effort basis. It does not guarantee that it will find the
  shortest version. In other words, if <code>|e|</code> describes the number of <code>e</code>’s
- inner expressions + 1, <code>this.simplify(e)</code> will return an expression <code>e1</code>,
- such that <code>|e1| ≤ |e|</code> and for any <a href="../../../../../../../../de/uka/ipd/sdq/beagle/core/evaluableexpressions/EvaluableVariableAssignment.html" title="class in de.uka.ipd.sdq.beagle.core.evaluableexpressions"><code>x</code></a>
+ inner expressions, <code>this.simplify(e)</code> will return an expression <code>e1</code>, such
+ that <code>|e1| ≤ |e|</code> and for any <a href="../../../../../../../../de/uka/ipd/sdq/beagle/core/evaluableexpressions/EvaluableVariableAssignment.html" title="class in de.uka.ipd.sdq.beagle.core.evaluableexpressions"><code>EvaluableVariableAssignment</code></a> <code>x</code>
  <code>e.evaluate(x) = e1.evaluate(x)</code>.</div>
 </li>
 </ul>
