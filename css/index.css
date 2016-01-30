@@ -65,6 +65,11 @@ code {
 	font-family: 'Computer Modern Typewriter'
 }
 
+pre {
+	padding: 0 1em;
+	margin: .3em 0;
+}
+
 blockquote p:before {
 	content: "“"
 }
@@ -86,6 +91,10 @@ tr td:last-child {
 	padding-right: 0;
 }
 
+li {
+	margin-top: .3em;
+}
+
 li p {
 	margin: 0;
 }
@@ -94,6 +103,11 @@ li blockquote {
 	margin-top: .2rem;
 	margin-bottom: .8rem;
 }
+
+img.small {
+	height: 20rem;
+}
+
 .description {
 	font-size: .8rem;
 }
