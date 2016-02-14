@@ -48,7 +48,7 @@ var activeTableTab = "activeTableTab";
 <div class="subNav">
 <ul class="navList">
 <li>Prev&nbsp;Class</li>
-<li><a href="../../../../../../de/uka/ipd/sdq/beagle/core/Blackboard.html" title="class in de.uka.ipd.sdq.beagle.core"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
+<li><a href="../../../../../../de/uka/ipd/sdq/beagle/core/BeagleController.html" title="class in de.uka.ipd.sdq.beagle.core"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
 </ul>
 <ul class="navList">
 <li><a href="../../../../../../index.html?de/uka/ipd/sdq/beagle/core/AnalysisController.html" target="_top">Frames</a></li>
@@ -111,15 +111,15 @@ var activeTableTab = "activeTableTab";
 extends java.lang.Object</pre>
 <div class="block">Conducts a complete analysis of elements on a blackboard. Controls the
  <a href="../../../../../../de/uka/ipd/sdq/beagle/core/measurement/MeasurementController.html" title="class in de.uka.ipd.sdq.beagle.core.measurement"><code>MeasurementController</code></a>, <a href="../../../../../../de/uka/ipd/sdq/beagle/core/analysis/ProposedExpressionAnalyser.html" title="interface in de.uka.ipd.sdq.beagle.core.analysis"><code>ResultAnalysers</code></a> and
- the <a href="../../../../../../de/uka/ipd/sdq/beagle/core/judge/FinalJudge.html" title="interface in de.uka.ipd.sdq.beagle.core.judge"><code>FinalJudge</code></a> to measure and analyse parametric dependencies.
+ the <a href="../../../../../../de/uka/ipd/sdq/beagle/core/judge/FinalJudge.html" title="class in de.uka.ipd.sdq.beagle.core.judge"><code>FinalJudge</code></a> to measure and analyse parametric dependencies.
 
  <h3>The Analysis</h3> During the analysis, the controller will ask participants whether
- they can contribute (except for the <a href="../../../../../../de/uka/ipd/sdq/beagle/core/judge/FinalJudge.html" title="interface in de.uka.ipd.sdq.beagle.core.judge">FinalJudge</a>, which must always be able
+ they can contribute (except for the <a href="../../../../../../de/uka/ipd/sdq/beagle/core/judge/FinalJudge.html" title="class in de.uka.ipd.sdq.beagle.core.judge">FinalJudge</a>, which must always be able
  to judge). The participants may only make these assumptions of the control flow:
 
  <ul>
 
- <li>There is always only the <a href="../../../../../../de/uka/ipd/sdq/beagle/core/measurement/MeasurementController.html" title="class in de.uka.ipd.sdq.beagle.core.measurement"><code>MeasurementController</code></a>, only the <a href="../../../../../../de/uka/ipd/sdq/beagle/core/judge/FinalJudge.html" title="interface in de.uka.ipd.sdq.beagle.core.judge"><code>FinalJudge</code></a>
+ <li>There is always only the <a href="../../../../../../de/uka/ipd/sdq/beagle/core/measurement/MeasurementController.html" title="class in de.uka.ipd.sdq.beagle.core.measurement"><code>MeasurementController</code></a>, only the <a href="../../../../../../de/uka/ipd/sdq/beagle/core/judge/FinalJudge.html" title="class in de.uka.ipd.sdq.beagle.core.judge"><code>FinalJudge</code></a>
  or only one <a href="../../../../../../de/uka/ipd/sdq/beagle/core/analysis/ProposedExpressionAnalyser.html" title="interface in de.uka.ipd.sdq.beagle.core.analysis"><code>ProposedExpressionAnalyser</code></a> (or none of the previous) running. They
  may use parallelisation as they wish but are self-responsible for synchronisation.
 
@@ -136,7 +136,7 @@ extends java.lang.Object</pre>
  <a href="../../../../../../de/uka/ipd/sdq/beagle/core/analysis/ProposedExpressionAnalyser.html#canContribute-de.uka.ipd.sdq.beagle.core.analysis.ReadOnlyProposedExpressionAnalyserBlackboardView-"><code>canContribute</code></a> method returns
  <code>true</code> will be called.
 
- <li>The <a href="../../../../../../de/uka/ipd/sdq/beagle/core/judge/FinalJudge.html" title="interface in de.uka.ipd.sdq.beagle.core.judge">FinalJudge</a> will only be called if no
+ <li>The <a href="../../../../../../de/uka/ipd/sdq/beagle/core/judge/FinalJudge.html" title="class in de.uka.ipd.sdq.beagle.core.judge">FinalJudge</a> will only be called if no
  <a href="../../../../../../de/uka/ipd/sdq/beagle/core/analysis/ProposedExpressionAnalyser.html" title="interface in de.uka.ipd.sdq.beagle.core.analysis"><code>ProposedExpressionAnalyser</code></a> can contribute.
 
  </ul></div>
@@ -163,7 +163,10 @@ extends java.lang.Object</pre>
 <th class="colOne" scope="col">Constructor and Description</th>
 </tr>
 <tr class="altColor">
-<td class="colOne"><code><span class="memberNameLink"><a href="../../../../../../de/uka/ipd/sdq/beagle/core/AnalysisController.html#AnalysisController-de.uka.ipd.sdq.beagle.core.Blackboard-">AnalysisController</a></span>(<a href="../../../../../../de/uka/ipd/sdq/beagle/core/Blackboard.html" title="class in de.uka.ipd.sdq.beagle.core">Blackboard</a>&nbsp;blackboard)</code>
+<td class="colOne"><code><span class="memberNameLink"><a href="../../../../../../de/uka/ipd/sdq/beagle/core/AnalysisController.html#AnalysisController-de.uka.ipd.sdq.beagle.core.Blackboard-java.util.Set-java.util.Set-java.util.Set-">AnalysisController</a></span>(<a href="../../../../../../de/uka/ipd/sdq/beagle/core/Blackboard.html" title="class in de.uka.ipd.sdq.beagle.core">Blackboard</a>&nbsp;blackboard,
+                  java.util.Set&lt;<a href="../../../../../../de/uka/ipd/sdq/beagle/core/measurement/MeasurementTool.html" title="interface in de.uka.ipd.sdq.beagle.core.measurement">MeasurementTool</a>&gt;&nbsp;measurementTools,
+                  java.util.Set&lt;<a href="../../../../../../de/uka/ipd/sdq/beagle/core/analysis/MeasurementResultAnalyser.html" title="interface in de.uka.ipd.sdq.beagle.core.analysis">MeasurementResultAnalyser</a>&gt;&nbsp;measurementResultAnalysers,
+                  java.util.Set&lt;<a href="../../../../../../de/uka/ipd/sdq/beagle/core/analysis/ProposedExpressionAnalyser.html" title="interface in de.uka.ipd.sdq.beagle.core.analysis">ProposedExpressionAnalyser</a>&gt;&nbsp;proposedExpressionAnalysers)</code>
 <div class="block">Creates a controller to analyse all elements written on <code>blackboard</code>.</div>
 </td>
 </tr>
@@ -211,17 +214,27 @@ extends java.lang.Object</pre>
 <!--   -->
 </a>
 <h3>Constructor Detail</h3>
-<a name="AnalysisController-de.uka.ipd.sdq.beagle.core.Blackboard-">
+<a name="AnalysisController-de.uka.ipd.sdq.beagle.core.Blackboard-java.util.Set-java.util.Set-java.util.Set-">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>AnalysisController</h4>
-<pre>public&nbsp;AnalysisController(<a href="../../../../../../de/uka/ipd/sdq/beagle/core/Blackboard.html" title="class in de.uka.ipd.sdq.beagle.core">Blackboard</a>&nbsp;blackboard)</pre>
+<pre>public&nbsp;AnalysisController(<a href="../../../../../../de/uka/ipd/sdq/beagle/core/Blackboard.html" title="class in de.uka.ipd.sdq.beagle.core">Blackboard</a>&nbsp;blackboard,
+                          java.util.Set&lt;<a href="../../../../../../de/uka/ipd/sdq/beagle/core/measurement/MeasurementTool.html" title="interface in de.uka.ipd.sdq.beagle.core.measurement">MeasurementTool</a>&gt;&nbsp;measurementTools,
+                          java.util.Set&lt;<a href="../../../../../../de/uka/ipd/sdq/beagle/core/analysis/MeasurementResultAnalyser.html" title="interface in de.uka.ipd.sdq.beagle.core.analysis">MeasurementResultAnalyser</a>&gt;&nbsp;measurementResultAnalysers,
+                          java.util.Set&lt;<a href="../../../../../../de/uka/ipd/sdq/beagle/core/analysis/ProposedExpressionAnalyser.html" title="interface in de.uka.ipd.sdq.beagle.core.analysis">ProposedExpressionAnalyser</a>&gt;&nbsp;proposedExpressionAnalysers)</pre>
 <div class="block">Creates a controller to analyse all elements written on <code>blackboard</code>.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>blackboard</code> - A blackboard having everything to be analysed written on it.</dd>
+<dd><code>blackboard</code> - A blackboard having everything to be analysed written on it. Must
+            not be <code>null</code>.</dd>
+<dd><code>measurementTools</code> - The <a href="../../../../../../de/uka/ipd/sdq/beagle/core/measurement/MeasurementTool.html" title="interface in de.uka.ipd.sdq.beagle.core.measurement"><code>MeasurementTool</code></a>s to use. Must not be
+            <code>null</code> and must not contain <code>null</code>.</dd>
+<dd><code>measurementResultAnalysers</code> - The <a href="../../../../../../de/uka/ipd/sdq/beagle/core/analysis/MeasurementResultAnalyser.html" title="interface in de.uka.ipd.sdq.beagle.core.analysis"><code>MeasurementResultAnalyser</code></a>s to use.
+            Must not be <code>null</code> and must not contain <code>null</code>.</dd>
+<dd><code>proposedExpressionAnalysers</code> - The <a href="../../../../../../de/uka/ipd/sdq/beagle/core/analysis/ProposedExpressionAnalyser.html" title="interface in de.uka.ipd.sdq.beagle.core.analysis"><code>ProposedExpressionAnalyser</code></a>s to use.
+            Must not be <code>null</code> and must not contain <code>null</code>.</dd>
 </dl>
 </li>
 </ul>
@@ -272,7 +285,7 @@ extends java.lang.Object</pre>
 <div class="subNav">
 <ul class="navList">
 <li>Prev&nbsp;Class</li>
-<li><a href="../../../../../../de/uka/ipd/sdq/beagle/core/Blackboard.html" title="class in de.uka.ipd.sdq.beagle.core"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
+<li><a href="../../../../../../de/uka/ipd/sdq/beagle/core/BeagleController.html" title="class in de.uka.ipd.sdq.beagle.core"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
 </ul>
 <ul class="navList">
 <li><a href="../../../../../../index.html?de/uka/ipd/sdq/beagle/core/AnalysisController.html" target="_top">Frames</a></li>
