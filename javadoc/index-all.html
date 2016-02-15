@@ -67,12 +67,12 @@
 <!--   -->
 </a></div>
 <!-- ========= END OF TOP NAVBAR ========= -->
-<div class="contentContainer"><a href="#I:A">A</a>&nbsp;<a href="#I:B">B</a>&nbsp;<a href="#I:C">C</a>&nbsp;<a href="#I:D">D</a>&nbsp;<a href="#I:E">E</a>&nbsp;<a href="#I:F">F</a>&nbsp;<a href="#I:G">G</a>&nbsp;<a href="#I:H">H</a>&nbsp;<a href="#I:I">I</a>&nbsp;<a href="#I:J">J</a>&nbsp;<a href="#I:L">L</a>&nbsp;<a href="#I:M">M</a>&nbsp;<a href="#I:N">N</a>&nbsp;<a href="#I:O">O</a>&nbsp;<a href="#I:P">P</a>&nbsp;<a href="#I:R">R</a>&nbsp;<a href="#I:S">S</a>&nbsp;<a href="#I:T">T</a>&nbsp;<a href="#I:U">U</a>&nbsp;<a href="#I:V">V</a>&nbsp;<a href="#I:W">W</a>&nbsp;<a name="I:A">
+<div class="contentContainer"><a href="#I:A">A</a>&nbsp;<a href="#I:B">B</a>&nbsp;<a href="#I:C">C</a>&nbsp;<a href="#I:D">D</a>&nbsp;<a href="#I:E">E</a>&nbsp;<a href="#I:F">F</a>&nbsp;<a href="#I:G">G</a>&nbsp;<a href="#I:H">H</a>&nbsp;<a href="#I:I">I</a>&nbsp;<a href="#I:J">J</a>&nbsp;<a href="#I:K">K</a>&nbsp;<a href="#I:L">L</a>&nbsp;<a href="#I:M">M</a>&nbsp;<a href="#I:N">N</a>&nbsp;<a href="#I:O">O</a>&nbsp;<a href="#I:P">P</a>&nbsp;<a href="#I:R">R</a>&nbsp;<a href="#I:S">S</a>&nbsp;<a href="#I:T">T</a>&nbsp;<a href="#I:U">U</a>&nbsp;<a href="#I:V">V</a>&nbsp;<a href="#I:W">W</a>&nbsp;<a name="I:A">
 <!--   -->
 </a>
 <h2 class="title">A</h2>
 <dl>
-<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/BeagleController.html#abortAnalysis--">abortAnalysis()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/BeagleController.html" title="class in de.uka.ipd.sdq.beagle.core">BeagleController</a></dt>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/facade/BeagleController.html#abortAnalysis--">abortAnalysis()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.facade.<a href="de/uka/ipd/sdq/beagle/core/facade/BeagleController.html" title="class in de.uka.ipd.sdq.beagle.core.facade">BeagleController</a></dt>
 <dd>
 <div class="block">Aborts the analysis.</div>
 </dd>
@@ -175,6 +175,10 @@
 <dd>
 <div class="block">Stores the <code>identifier</code> used for <code>loop</code> in the PCM repository.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmBeagleMappings.html#addPcmIdOf-de.uka.ipd.sdq.beagle.core.ExternalCallParameter-java.lang.String-">addPcmIdOf(ExternalCallParameter, String)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmBeagleMappings.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmBeagleMappings</a></dt>
+<dd>
+<div class="block">Stores the <code>identifier</code> used for <code>loop</code> in the PCM repository.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/analysis/MeasurementResultAnalyserBlackboardView.html#addProposedExpressionFor-de.uka.ipd.sdq.beagle.core.MeasurableSeffElement-de.uka.ipd.sdq.beagle.core.evaluableexpressions.EvaluableExpression-">addProposedExpressionFor(MeasurableSeffElement, EvaluableExpression)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.analysis.<a href="de/uka/ipd/sdq/beagle/core/analysis/MeasurementResultAnalyserBlackboardView.html" title="class in de.uka.ipd.sdq.beagle.core.analysis">MeasurementResultAnalyserBlackboardView</a></dt>
 <dd>
 <div class="block">Delegates to
@@ -269,6 +273,34 @@
 <dd>
 <div class="block">Creates a controller to analyse all elements written on <code>blackboard</code>.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryWriterAnnotator.html#annotateAll-org.palladiosimulator.pcm.repository.impl.RepositoryImpl-">annotateAll(RepositoryImpl)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryWriterAnnotator.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmRepositoryWriterAnnotator</a></dt>
+<dd>
+<div class="block">This method annotates given <a href="de/uka/ipd/sdq/beagle/core/evaluableexpressions/EvaluableExpression.html" title="interface in de.uka.ipd.sdq.beagle.core.evaluableexpressions"><code>EvaluableExpression</code></a> to corresponding PCM
+ elements.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryWriterAnnotatorEvaEx.html#annotateEvaExFor-org.palladiosimulator.pcm.seff.impl.LoopActionImpl-de.uka.ipd.sdq.beagle.core.evaluableexpressions.EvaluableExpression-">annotateEvaExFor(LoopActionImpl, EvaluableExpression)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryWriterAnnotatorEvaEx.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmRepositoryWriterAnnotatorEvaEx</a></dt>
+<dd>
+<div class="block">Annotating the EvaluableExpression onto the given PCM element.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryWriterAnnotatorEvaEx.html#annotateEvaExFor-org.palladiosimulator.pcm.seff.impl.BranchActionImpl-de.uka.ipd.sdq.beagle.core.evaluableexpressions.EvaluableExpression-">annotateEvaExFor(BranchActionImpl, EvaluableExpression)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryWriterAnnotatorEvaEx.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmRepositoryWriterAnnotatorEvaEx</a></dt>
+<dd>
+<div class="block">Annotating the EvaluableExpression onto the given PCM element.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryWriterAnnotatorEvaEx.html#annotateEvaExFor-org.palladiosimulator.pcm.seff.impl.InternalActionImpl-de.uka.ipd.sdq.beagle.core.ResourceDemandType-de.uka.ipd.sdq.beagle.core.evaluableexpressions.EvaluableExpression-">annotateEvaExFor(InternalActionImpl, ResourceDemandType, EvaluableExpression)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryWriterAnnotatorEvaEx.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmRepositoryWriterAnnotatorEvaEx</a></dt>
+<dd>
+<div class="block">Annotating the EvaluableExpression onto the given PCM element.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryWriterAnnotatorEvaEx.html#annotateEvaExFor-org.palladiosimulator.pcm.seff.impl.ExternalCallActionImpl-de.uka.ipd.sdq.beagle.core.evaluableexpressions.EvaluableExpression-">annotateEvaExFor(ExternalCallActionImpl, EvaluableExpression)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryWriterAnnotatorEvaEx.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmRepositoryWriterAnnotatorEvaEx</a></dt>
+<dd>
+<div class="block">Annotating the EvaluableExpression onto the given PCM element.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/EclipseLaunchConfigurationLaunchConfiguration.html#appendJvmArgument-java.lang.String-">appendJvmArgument(String)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/EclipseLaunchConfigurationLaunchConfiguration.html" title="class in de.uka.ipd.sdq.beagle.core">EclipseLaunchConfigurationLaunchConfiguration</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/LaunchConfiguration.html#appendJvmArgument-java.lang.String-">appendJvmArgument(String)</a></span> - Method in interface de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/LaunchConfiguration.html" title="interface in de.uka.ipd.sdq.beagle.core">LaunchConfiguration</a></dt>
+<dd>
+<div class="block">Adds the given <code>argument</code> to the JVM arguments used when launching the
+ software.</div>
+</dd>
 </dl>
 <a name="I:B">
 <!--   -->
@@ -289,16 +321,16 @@
 <dd>
 <div class="block">Configures a whole execution of Beagle.</div>
 </dd>
-<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/facade/BeagleConfiguration.html#BeagleConfiguration-java.util.List-java.io.File-">BeagleConfiguration(List&lt;Entity&gt;, File)</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.facade.<a href="de/uka/ipd/sdq/beagle/core/facade/BeagleConfiguration.html" title="class in de.uka.ipd.sdq.beagle.core.facade">BeagleConfiguration</a></dt>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/facade/BeagleConfiguration.html#BeagleConfiguration-java.util.List-java.io.File-org.eclipse.jdt.core.IJavaProject-">BeagleConfiguration(List&lt;Entity&gt;, File, IJavaProject)</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.facade.<a href="de/uka/ipd/sdq/beagle/core/facade/BeagleConfiguration.html" title="class in de.uka.ipd.sdq.beagle.core.facade">BeagleConfiguration</a></dt>
 <dd>
 <div class="block">Constructs a new <a href="de/uka/ipd/sdq/beagle/core/facade/BeagleConfiguration.html" title="class in de.uka.ipd.sdq.beagle.core.facade"><code>BeagleConfiguration</code></a> using <code>elements</code> as the default
  elements to be measured.</div>
 </dd>
-<dt><a href="de/uka/ipd/sdq/beagle/core/BeagleController.html" title="class in de.uka.ipd.sdq.beagle.core"><span class="typeNameLink">BeagleController</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/package-summary.html">de.uka.ipd.sdq.beagle.core</a></dt>
+<dt><a href="de/uka/ipd/sdq/beagle/core/facade/BeagleController.html" title="class in de.uka.ipd.sdq.beagle.core.facade"><span class="typeNameLink">BeagleController</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/facade/package-summary.html">de.uka.ipd.sdq.beagle.core.facade</a></dt>
 <dd>
 <div class="block">Controls the execution of the Beagle Analysis.</div>
 </dd>
-<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/BeagleController.html#BeagleController-de.uka.ipd.sdq.beagle.core.facade.BeagleConfiguration-">BeagleController(BeagleConfiguration)</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/BeagleController.html" title="class in de.uka.ipd.sdq.beagle.core">BeagleController</a></dt>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/facade/BeagleController.html#BeagleController-de.uka.ipd.sdq.beagle.core.facade.BeagleConfiguration-">BeagleController(BeagleConfiguration)</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.facade.<a href="de/uka/ipd/sdq/beagle/core/facade/BeagleController.html" title="class in de.uka.ipd.sdq.beagle.core.facade">BeagleController</a></dt>
 <dd>
 <div class="block">Constructs a new <code>BeagleController</code> with the given
  <a href="de/uka/ipd/sdq/beagle/core/facade/BeagleConfiguration.html" title="class in de.uka.ipd.sdq.beagle.core.facade"><code>BeagleConfiguration</code></a>.</div>
@@ -307,11 +339,17 @@
 <dd>
 <div class="block">Central and only storage of all knowledge gained by Beagle.</div>
 </dd>
-<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/Blackboard.html#Blackboard-java.util.Set-java.util.Set-java.util.Set-java.util.Set-de.uka.ipd.sdq.beagle.core.judge.EvaluableExpressionFitnessFunction-">Blackboard(Set&lt;ResourceDemandingInternalAction&gt;, Set&lt;SeffBranch&gt;, Set&lt;SeffLoop&gt;, Set&lt;ExternalCallParameter&gt;, EvaluableExpressionFitnessFunction)</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/Blackboard.html" title="class in de.uka.ipd.sdq.beagle.core">Blackboard</a></dt>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/Blackboard.html#Blackboard-java.util.Set-java.util.Set-java.util.Set-java.util.Set-de.uka.ipd.sdq.beagle.core.judge.EvaluableExpressionFitnessFunction-de.uka.ipd.sdq.beagle.core.ProjectInformation-">Blackboard(Set&lt;ResourceDemandingInternalAction&gt;, Set&lt;SeffBranch&gt;, Set&lt;SeffLoop&gt;, Set&lt;ExternalCallParameter&gt;, EvaluableExpressionFitnessFunction, ProjectInformation)</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/Blackboard.html" title="class in de.uka.ipd.sdq.beagle.core">Blackboard</a></dt>
 <dd>
 <div class="block">Creates a new blackboard that can be used to analyse the given elements.</div>
 </dd>
-<dt><a href="de/uka/ipd/sdq/beagle/core/BlackboardStorer.html" title="interface in de.uka.ipd.sdq.beagle.core"><span class="typeNameLink">BlackboardStorer</span></a>&lt;<a href="de/uka/ipd/sdq/beagle/core/BlackboardStorer.html" title="type parameter in BlackboardStorer">WRITTEN_TYPE</a> extends java.io.Serializable&gt; - Interface in <a href="de/uka/ipd/sdq/beagle/core/package-summary.html">de.uka.ipd.sdq.beagle.core</a></dt>
+<dt><a href="de/uka/ipd/sdq/beagle/core/BlackboardCreator.html" title="class in de.uka.ipd.sdq.beagle.core"><span class="typeNameLink">BlackboardCreator</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/package-summary.html">de.uka.ipd.sdq.beagle.core</a></dt>
+<dd>
+<div class="block">Creates a new <a href="de/uka/ipd/sdq/beagle/core/Blackboard.html" title="class in de.uka.ipd.sdq.beagle.core"><code>Blackboard</code></a>.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/BlackboardCreator.html#BlackboardCreator--">BlackboardCreator()</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/BlackboardCreator.html" title="class in de.uka.ipd.sdq.beagle.core">BlackboardCreator</a></dt>
+<dd>&nbsp;</dd>
+<dt><a href="de/uka/ipd/sdq/beagle/core/BlackboardStorer.html" title="interface in de.uka.ipd.sdq.beagle.core"><span class="typeNameLink">BlackboardStorer</span></a>&lt;<a href="de/uka/ipd/sdq/beagle/core/BlackboardStorer.html" title="type parameter in BlackboardStorer">WRITTEN_TYPE</a> extends <a href="https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html?is-external=true" title="class or interface in java.io">Serializable</a>&gt; - Interface in <a href="de/uka/ipd/sdq/beagle/core/package-summary.html">de.uka.ipd.sdq.beagle.core</a></dt>
 <dd>
 <div class="block">Interface for classes that wish to write their state to the Blackboard.</div>
 </dd>
@@ -339,6 +377,8 @@
 <div class="block">Determines whether this analyser can potentially contribute knowledge in the
  moment.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/analysis/MeasurementResultAnalyserAverage.html#canContribute-de.uka.ipd.sdq.beagle.core.analysis.ReadOnlyMeasurementResultAnalyserBlackboardView-">canContribute(ReadOnlyMeasurementResultAnalyserBlackboardView)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.analysis.<a href="de/uka/ipd/sdq/beagle/core/analysis/MeasurementResultAnalyserAverage.html" title="class in de.uka.ipd.sdq.beagle.core.analysis">MeasurementResultAnalyserAverage</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/analysis/ProposedExpressionAnalyser.html#canContribute-de.uka.ipd.sdq.beagle.core.analysis.ReadOnlyProposedExpressionAnalyserBlackboardView-">canContribute(ReadOnlyProposedExpressionAnalyserBlackboardView)</a></span> - Method in interface de.uka.ipd.sdq.beagle.core.analysis.<a href="de/uka/ipd/sdq/beagle/core/analysis/ProposedExpressionAnalyser.html" title="interface in de.uka.ipd.sdq.beagle.core.analysis">ProposedExpressionAnalyser</a></dt>
 <dd>
 <div class="block">Determines whether this analyser can potentially contribute knowledge in the
@@ -352,6 +392,10 @@
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/failurehandling/FailureReport.html#cause-java.lang.Exception-">cause(Exception)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.failurehandling.<a href="de/uka/ipd/sdq/beagle/core/failurehandling/FailureReport.html" title="class in de.uka.ipd.sdq.beagle.core.failurehandling">FailureReport</a></dt>
 <dd>
 <div class="block">Supplies the exception that caused or indicated the failure.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/EmfHelper.html#checkIdentity-org.eclipse.emf.ecore.EObject-org.eclipse.emf.ecore.EObject-">checkIdentity(EObject, EObject)</a></span> - Static method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/EmfHelper.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">EmfHelper</a></dt>
+<dd>
+<div class="block">Checks for two PCM model elements whether they are the same, i.e.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/Blackboard.html#clearToBeMeasuredBranches--">clearToBeMeasuredBranches()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/Blackboard.html" title="class in de.uka.ipd.sdq.beagle.core">Blackboard</a></dt>
 <dd>
@@ -387,6 +431,12 @@
 <dd>
 <div class="block">Creates an event for the fact that <code>codeSection</code> was started to be executed.</div>
 </dd>
+<dt><a href="de/uka/ipd/sdq/beagle/measurement/kieker/CodeSectionIdentifier.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker"><span class="typeNameLink">CodeSectionIdentifier</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/measurement/kieker/package-summary.html">de.uka.ipd.sdq.beagle.measurement.kieker</a></dt>
+<dd>
+<div class="block">Resolves code sections to unique IDs and back.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/CodeSectionIdentifier.html#CodeSectionIdentifier--">CodeSectionIdentifier()</a></span> - Constructor for class de.uka.ipd.sdq.beagle.measurement.kieker.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/CodeSectionIdentifier.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker">CodeSectionIdentifier</a></dt>
+<dd>&nbsp;</dd>
 <dt><a href="de/uka/ipd/sdq/beagle/core/measurement/order/CodeSectionLeftEvent.html" title="class in de.uka.ipd.sdq.beagle.core.measurement.order"><span class="typeNameLink">CodeSectionLeftEvent</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/measurement/order/package-summary.html">de.uka.ipd.sdq.beagle.core.measurement.order</a></dt>
 <dd>
 <div class="block">An event for the fact that a code section was being <em>left</em> to be executed.</div>
@@ -404,9 +454,17 @@
 <div class="block">Builds an expression that will return '1' if the expression set as smaller is
  smaller and '0' else.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/EclipseCompiler.html#compile--">compile()</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/EclipseCompiler.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker">EclipseCompiler</a></dt>
+<dd>
+<div class="block">Executes the compilation.</div>
+</dd>
 <dt><a href="de/uka/ipd/sdq/beagle/core/evaluableexpressions/ConstantExpression.html" title="class in de.uka.ipd.sdq.beagle.core.evaluableexpressions"><span class="typeNameLink">ConstantExpression</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/evaluableexpressions/package-summary.html">de.uka.ipd.sdq.beagle.core.evaluableexpressions</a></dt>
 <dd>
 <div class="block">An <a href="de/uka/ipd/sdq/beagle/core/evaluableexpressions/EvaluableExpression.html" title="interface in de.uka.ipd.sdq.beagle.core.evaluableexpressions"><code>EvaluableExpression</code></a> having a constant value.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/EmfHelper.html#contains-java.util.Collection-org.eclipse.emf.ecore.EObject-">contains(Collection&lt;? extends EObject&gt;, EObject)</a></span> - Static method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/EmfHelper.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">EmfHelper</a></dt>
+<dd>
+<div class="block">Implements an identifier-based contains.</div>
 </dd>
 <dt><a href="de/uka/ipd/sdq/beagle/gui/contextmenus/ContextMenuEntryHandlerForComponents.html" title="class in de.uka.ipd.sdq.beagle.gui.contextmenus"><span class="typeNameLink">ContextMenuEntryHandlerForComponents</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/gui/contextmenus/package-summary.html">de.uka.ipd.sdq.beagle.gui.contextmenus</a></dt>
 <dd>
@@ -426,7 +484,7 @@
 </dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/gui/contextmenus/ContextMenuEntryHandlerForRepositories.html#ContextMenuEntryHandlerForRepositories--">ContextMenuEntryHandlerForRepositories()</a></span> - Constructor for class de.uka.ipd.sdq.beagle.gui.contextmenus.<a href="de/uka/ipd/sdq/beagle/gui/contextmenus/ContextMenuEntryHandlerForRepositories.html" title="class in de.uka.ipd.sdq.beagle.gui.contextmenus">ContextMenuEntryHandlerForRepositories</a></dt>
 <dd>&nbsp;</dd>
-<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/BeagleController.html#continueAnalysis--">continueAnalysis()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/BeagleController.html" title="class in de.uka.ipd.sdq.beagle.core">BeagleController</a></dt>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/facade/BeagleController.html#continueAnalysis--">continueAnalysis()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.facade.<a href="de/uka/ipd/sdq/beagle/core/facade/BeagleController.html" title="class in de.uka.ipd.sdq.beagle.core.facade">BeagleController</a></dt>
 <dd>
 <div class="block">Continues the analysis if it is paused.</div>
 </dd>
@@ -444,9 +502,15 @@
 <dd>
 <div class="block">Contributes this analyser’s knowledge to the passed blackboard.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/analysis/MeasurementResultAnalyserAverage.html#contribute-de.uka.ipd.sdq.beagle.core.analysis.MeasurementResultAnalyserBlackboardView-">contribute(MeasurementResultAnalyserBlackboardView)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.analysis.<a href="de/uka/ipd/sdq/beagle/core/analysis/MeasurementResultAnalyserAverage.html" title="class in de.uka.ipd.sdq.beagle.core.analysis">MeasurementResultAnalyserAverage</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/analysis/ProposedExpressionAnalyser.html#contribute-de.uka.ipd.sdq.beagle.core.analysis.ProposedExpressionAnalyserBlackboardView-">contribute(ProposedExpressionAnalyserBlackboardView)</a></span> - Method in interface de.uka.ipd.sdq.beagle.core.analysis.<a href="de/uka/ipd/sdq/beagle/core/analysis/ProposedExpressionAnalyser.html" title="interface in de.uka.ipd.sdq.beagle.core.analysis">ProposedExpressionAnalyser</a></dt>
 <dd>
 <div class="block">Contributes this analyser’s knowledge to the passed blackboard.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/BlackboardCreator.html#createBlackboard--">createBlackboard()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/BlackboardCreator.html" title="class in de.uka.ipd.sdq.beagle.core">BlackboardCreator</a></dt>
+<dd>
+<div class="block">A blackboard with all information provided via this class.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/gui/SelectionOverviewWizardPage.html#createControl-org.eclipse.swt.widgets.Composite-">createControl(Composite)</a></span> - Method in class de.uka.ipd.sdq.beagle.gui.<a href="de/uka/ipd/sdq/beagle/gui/SelectionOverviewWizardPage.html" title="class in de.uka.ipd.sdq.beagle.gui">SelectionOverviewWizardPage</a></dt>
 <dd>&nbsp;</dd>
@@ -505,6 +569,18 @@
 <dd>
 <div class="block">The handlers for each context menu entry.</div>
 </dd>
+<dt><a href="de/uka/ipd/sdq/beagle/measurement/kieker/package-summary.html">de.uka.ipd.sdq.beagle.measurement.kieker</a> - package de.uka.ipd.sdq.beagle.measurement.kieker</dt>
+<dd>
+<div class="block">Measurement Tool implementation using Kieker.</div>
+</dd>
+<dt><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/package-summary.html">de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation</a> - package de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation</dt>
+<dd>
+<div class="block">Instrumentation for the Kieker Measurement Tool.</div>
+</dd>
+<dt><a href="de/uka/ipd/sdq/beagle/measurement/kieker/remote/package-summary.html">de.uka.ipd.sdq.beagle.measurement.kieker.remote</a> - package de.uka.ipd.sdq.beagle.measurement.kieker.remote</dt>
+<dd>
+<div class="block">Types used by the instrumentation when executing the measured software.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/facade/BeagleConfiguration.html#DEFAULT_TIMEOUT">DEFAULT_TIMEOUT</a></span> - Static variable in class de.uka.ipd.sdq.beagle.core.facade.<a href="de/uka/ipd/sdq/beagle/core/facade/BeagleConfiguration.html" title="class in de.uka.ipd.sdq.beagle.core.facade">BeagleConfiguration</a></dt>
 <dd>
 <div class="block">The default setting for the <a href="de/uka/ipd/sdq/beagle/core/facade/BeagleConfiguration.html#getTimeout--">timeout</a>.</div>
@@ -528,14 +604,53 @@
 </a>
 <h2 class="title">E</h2>
 <dl>
-<dt><a href="de/uka/ipd/sdq/beagle/core/measurement/order/EclipseLaunchConfigurationLaunchConfiguration.html" title="class in de.uka.ipd.sdq.beagle.core.measurement.order"><span class="typeNameLink">EclipseLaunchConfigurationLaunchConfiguration</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/measurement/order/package-summary.html">de.uka.ipd.sdq.beagle.core.measurement.order</a></dt>
+<dt><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseAstInstrumentationStrategy.html" title="interface in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation"><span class="typeNameLink">EclipseAstInstrumentationStrategy</span></a> - Interface in <a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/package-summary.html">de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation</a></dt>
 <dd>
-<div class="block">A launch configuration that starts in its <a href="de/uka/ipd/sdq/beagle/core/measurement/order/EclipseLaunchConfigurationLaunchConfiguration.html#execute--"><code>EclipseLaunchConfigurationLaunchConfiguration.execute()</code></a> method an eclipse launch
+<div class="block">Defines how to instrument a code section by providing AST statements to insert before
+ and after the section.</div>
+</dd>
+<dt><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseAstInstrumentor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation"><span class="typeNameLink">EclipseAstInstrumentor</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/package-summary.html">de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation</a></dt>
+<dd>
+<div class="block">Instruments code sections using Eclipse’s JDT Abstract Syntax Tree.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseAstInstrumentor.html#EclipseAstInstrumentor-de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.EclipseAstInstrumentor.InstrumentationResultFileProvider-">EclipseAstInstrumentor(EclipseAstInstrumentor.InstrumentationResultFileProvider)</a></span> - Constructor for class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseAstInstrumentor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">EclipseAstInstrumentor</a></dt>
+<dd>
+<div class="block">Creates an instrumentor that writes its resulting instrumented code to the files
+ provided by <code>instrumentedFileProvider</code>.</div>
+</dd>
+<dt><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseAstInstrumentor.InstrumentationResultFileProvider.html" title="interface in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation"><span class="typeNameLink">EclipseAstInstrumentor.InstrumentationResultFileProvider</span></a> - Interface in <a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/package-summary.html">de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation</a></dt>
+<dd>
+<div class="block">Appoints a file the instrumented source code of a Java type shall be written to.</div>
+</dd>
+<dt><a href="de/uka/ipd/sdq/beagle/measurement/kieker/EclipseCompiler.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker"><span class="typeNameLink">EclipseCompiler</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/measurement/kieker/package-summary.html">de.uka.ipd.sdq.beagle.measurement.kieker</a></dt>
+<dd>
+<div class="block">Compiles source code files using Eclipse’s batch compiler.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/EclipseCompiler.html#EclipseCompiler-java.nio.file.Path-">EclipseCompiler(Path)</a></span> - Constructor for class de.uka.ipd.sdq.beagle.measurement.kieker.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/EclipseCompiler.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker">EclipseCompiler</a></dt>
+<dd>
+<div class="block">Creates a compiler that will compile all java files in the provided
+ <code>sourceFolder</code>.</div>
+</dd>
+<dt><a href="de/uka/ipd/sdq/beagle/core/EclipseLaunchConfigurationLaunchConfiguration.html" title="class in de.uka.ipd.sdq.beagle.core"><span class="typeNameLink">EclipseLaunchConfigurationLaunchConfiguration</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/package-summary.html">de.uka.ipd.sdq.beagle.core</a></dt>
+<dd>
+<div class="block">A launch configuration that starts in its <a href="de/uka/ipd/sdq/beagle/core/EclipseLaunchConfigurationLaunchConfiguration.html#execute--"><code>EclipseLaunchConfigurationLaunchConfiguration.execute()</code></a> method an eclipse launch
  configuration.</div>
 </dd>
-<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/measurement/order/EclipseLaunchConfigurationLaunchConfiguration.html#EclipseLaunchConfigurationLaunchConfiguration-org.eclipse.debug.core.ILaunchConfiguration-">EclipseLaunchConfigurationLaunchConfiguration(ILaunchConfiguration)</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.measurement.order.<a href="de/uka/ipd/sdq/beagle/core/measurement/order/EclipseLaunchConfigurationLaunchConfiguration.html" title="class in de.uka.ipd.sdq.beagle.core.measurement.order">EclipseLaunchConfigurationLaunchConfiguration</a></dt>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/EclipseLaunchConfigurationLaunchConfiguration.html#EclipseLaunchConfigurationLaunchConfiguration-org.eclipse.debug.core.ILaunchConfiguration-org.eclipse.jdt.core.IJavaProject-">EclipseLaunchConfigurationLaunchConfiguration(ILaunchConfiguration, IJavaProject)</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/EclipseLaunchConfigurationLaunchConfiguration.html" title="class in de.uka.ipd.sdq.beagle.core">EclipseLaunchConfigurationLaunchConfiguration</a></dt>
 <dd>
 <div class="block">Creates a Beagle launch configuration from an eclipse launch configuration.</div>
+</dd>
+<dt><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseStatementCreationHelper.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation"><span class="typeNameLink">EclipseStatementCreationHelper</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/package-summary.html">de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation</a></dt>
+<dd>
+<div class="block">Convenience class to easily generate instrumentation code.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseStatementCreationHelper.html#EclipseStatementCreationHelper-org.eclipse.jdt.core.dom.AST-">EclipseStatementCreationHelper(AST)</a></span> - Constructor for class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseStatementCreationHelper.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">EclipseStatementCreationHelper</a></dt>
+<dd>
+<div class="block">Create a helper that will create nodes using the provided <code>factory</code>.</div>
+</dd>
+<dt><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/EmfHelper.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection"><span class="typeNameLink">EmfHelper</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/pcmconnection/package-summary.html">de.uka.ipd.sdq.beagle.core.pcmconnection</a></dt>
+<dd>
+<div class="block">Helper class provided by the SDQ for working with PCM repository files.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/analysis/MeasurementResultAnalyserBlackboardView.html#equals-java.lang.Object-">equals(Object)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.analysis.<a href="de/uka/ipd/sdq/beagle/core/analysis/MeasurementResultAnalyserBlackboardView.html" title="class in de.uka.ipd.sdq.beagle.core.analysis">MeasurementResultAnalyserBlackboardView</a></dt>
 <dd>&nbsp;</dd>
@@ -664,11 +779,11 @@
 <dd>
 <div class="block">Thrown by this handler for reported failures.</div>
 </dd>
-<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/measurement/order/EclipseLaunchConfigurationLaunchConfiguration.html#execute--">execute()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.measurement.order.<a href="de/uka/ipd/sdq/beagle/core/measurement/order/EclipseLaunchConfigurationLaunchConfiguration.html" title="class in de.uka.ipd.sdq.beagle.core.measurement.order">EclipseLaunchConfigurationLaunchConfiguration</a></dt>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/EclipseLaunchConfigurationLaunchConfiguration.html#execute--">execute()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/EclipseLaunchConfigurationLaunchConfiguration.html" title="class in de.uka.ipd.sdq.beagle.core">EclipseLaunchConfigurationLaunchConfiguration</a></dt>
 <dd>&nbsp;</dd>
-<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/measurement/order/LaunchConfiguration.html#execute--">execute()</a></span> - Method in interface de.uka.ipd.sdq.beagle.core.measurement.order.<a href="de/uka/ipd/sdq/beagle/core/measurement/order/LaunchConfiguration.html" title="interface in de.uka.ipd.sdq.beagle.core.measurement.order">LaunchConfiguration</a></dt>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/LaunchConfiguration.html#execute--">execute()</a></span> - Method in interface de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/LaunchConfiguration.html" title="interface in de.uka.ipd.sdq.beagle.core">LaunchConfiguration</a></dt>
 <dd>
-<div class="block">Executes the code under test.</div>
+<div class="block">Executes the launch of the measured software.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/gui/contextmenus/ContextMenuEntryHandlerForComponents.html#execute-org.eclipse.core.commands.ExecutionEvent-">execute(ExecutionEvent)</a></span> - Method in class de.uka.ipd.sdq.beagle.gui.contextmenus.<a href="de/uka/ipd/sdq/beagle/gui/contextmenus/ContextMenuEntryHandlerForComponents.html" title="class in de.uka.ipd.sdq.beagle.gui.contextmenus">ContextMenuEntryHandlerForComponents</a></dt>
 <dd>&nbsp;</dd>
@@ -699,6 +814,11 @@
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/ExternalCallParameter.html#ExternalCallParameter-de.uka.ipd.sdq.beagle.core.CodeSection-int-">ExternalCallParameter(CodeSection, int)</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/ExternalCallParameter.html" title="class in de.uka.ipd.sdq.beagle.core">ExternalCallParameter</a></dt>
 <dd>
 <div class="block">Creates a parameter of an external call.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositorySeffExtractor.html#extractBehaviourAndAddToSet-org.eclipse.emf.ecore.EObject-">extractBehaviourAndAddToSet(EObject)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositorySeffExtractor.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmRepositorySeffExtractor</a></dt>
+<dd>
+<div class="block">Extracts the specified SEFF-elements <code>InternalActionImpl</code>,
+ <code>ExternalCallActionImpl</code>, <code>BranchActionImpl</code> and <code>LoopAction</code>.</div>
 </dd>
 </dl>
 <a name="I:F">
@@ -840,6 +960,10 @@
 <dd>
 <div class="block">All <a href="de/uka/ipd/sdq/beagle/core/SeffLoop.html" title="class in de.uka.ipd.sdq.beagle.core">SEFF loops</a> known to Beagle.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/facade/LauchConfigurationProvider.html#getAllSuitableJUnitLaunchConfigurations--">getAllSuitableJUnitLaunchConfigurations()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.facade.<a href="de/uka/ipd/sdq/beagle/core/facade/LauchConfigurationProvider.html" title="class in de.uka.ipd.sdq.beagle.core.facade">LauchConfigurationProvider</a></dt>
+<dd>
+<div class="block">Gives all launch configurations for the project of this object.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/evaluableexpressions/LogarithmExpression.html#getAntilogarithm--">getAntilogarithm()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.evaluableexpressions.<a href="de/uka/ipd/sdq/beagle/core/evaluableexpressions/LogarithmExpression.html" title="class in de.uka.ipd.sdq.beagle.core.evaluableexpressions">LogarithmExpression</a></dt>
 <dd>
 <div class="block">Get the <a href="de/uka/ipd/sdq/beagle/core/evaluableexpressions/EvaluableExpression.html" title="interface in de.uka.ipd.sdq.beagle.core.evaluableexpressions"><code>EvaluableExpression</code></a> which is the antilogarithm, or parameter of the
@@ -876,17 +1000,31 @@
 <dd>
 <div class="block">Get the <a href="de/uka/ipd/sdq/beagle/core/evaluableexpressions/EvaluableExpression.html" title="interface in de.uka.ipd.sdq.beagle.core.evaluableexpressions"><code>EvaluableExpression</code></a> which is the base of the logarithm.</div>
 </dd>
-<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactory.html#getBlackboardForAllElements--">getBlackboardForAllElements()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactory.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmRepositoryBlackboardFactory</a></dt>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/ResourceTypeMappings.html#getBeagleType-org.palladiosimulator.pcm.resourcetype.ProcessingResourceType-">getBeagleType(ProcessingResourceType)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/ResourceTypeMappings.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">ResourceTypeMappings</a></dt>
+<dd>
+<div class="block">Reading from the bidirectional map.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactoryAdder.html#getBlackboardForAllElements-de.uka.ipd.sdq.beagle.core.BlackboardCreator-">getBlackboardForAllElements(BlackboardCreator)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactoryAdder.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmRepositoryBlackboardFactoryAdder</a></dt>
 <dd>
 <div class="block">Builds a new blackboard and writes the Beagle objects representing all found
  <em>PCM elements</em> to it.</div>
 </dd>
-<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactory.html#getBlackboardForIds-java.util.Collection-">getBlackboardForIds(Collection&lt;String&gt;)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactory.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmRepositoryBlackboardFactory</a></dt>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryExtractor.html#getBlackboardForAllElements-org.palladiosimulator.pcm.repository.impl.RepositoryImpl-de.uka.ipd.sdq.beagle.core.BlackboardCreator-">getBlackboardForAllElements(RepositoryImpl, BlackboardCreator)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryExtractor.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmRepositoryExtractor</a></dt>
+<dd>
+<div class="block">Builds a new blackboard and writes the Beagle objects representing all found
+ <em>PCM elements</em> to it.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactoryAdder.html#getBlackboardForIds-java.util.Collection-de.uka.ipd.sdq.beagle.core.BlackboardCreator-">getBlackboardForIds(Collection&lt;String&gt;, BlackboardCreator)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactoryAdder.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmRepositoryBlackboardFactoryAdder</a></dt>
 <dd>
 <div class="block">Builds a new blackboard and writes the Beagle objects representing <em>PCM
  elements</em> related to <code>ids</code> to it.</div>
 </dd>
-<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactory.html#getBlackboardForIds-java.lang.String...-">getBlackboardForIds(String...)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactory.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmRepositoryBlackboardFactory</a></dt>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactoryAdder.html#getBlackboardForIds-de.uka.ipd.sdq.beagle.core.BlackboardCreator-java.lang.String...-">getBlackboardForIds(BlackboardCreator, String...)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactoryAdder.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmRepositoryBlackboardFactoryAdder</a></dt>
+<dd>
+<div class="block">Builds a new blackboard and writes the Beagle objects representing <em>PCM
+ elements</em> related to <code>ids</code> to it.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryExtractor.html#getBlackboardForIds-org.palladiosimulator.pcm.repository.impl.RepositoryImpl-java.util.Collection-de.uka.ipd.sdq.beagle.core.BlackboardCreator-">getBlackboardForIds(RepositoryImpl, Collection&lt;String&gt;, BlackboardCreator)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryExtractor.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmRepositoryExtractor</a></dt>
 <dd>
 <div class="block">Builds a new blackboard and writes the Beagle objects representing <em>PCM
  elements</em> related to <code>ids</code> to it.</div>
@@ -899,6 +1037,10 @@
 <dd>
 <div class="block">Gets the taken branch’s index.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/ProjectInformation.html#getBuildPath--">getBuildPath()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/ProjectInformation.html" title="class in de.uka.ipd.sdq.beagle.core">ProjectInformation</a></dt>
+<dd>
+<div class="block">Queries the project’s build path.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/ExternalCallParameter.html#getCallCodeSection--">getCallCodeSection()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/ExternalCallParameter.html" title="class in de.uka.ipd.sdq.beagle.core">ExternalCallParameter</a></dt>
 <dd>
 <div class="block">Gives the code section where the external call will be made.</div>
@@ -907,6 +1049,15 @@
 <dd>
 <div class="block">The assignment that caused this exception by not assigning a value to
  <a href="de/uka/ipd/sdq/beagle/core/evaluableexpressions/UndefinedExpressionException.html#getMissingVariable--"><code>UndefinedExpressionException.getMissingVariable()</code></a>.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/ProjectInformation.html#getCharset--">getCharset()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/ProjectInformation.html" title="class in de.uka.ipd.sdq.beagle.core">ProjectInformation</a></dt>
+<dd>
+<div class="block">Queries the project’s charset.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/facade/JdtProjectClasspathExtractor.html#getClasspath--">getClasspath()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.facade.<a href="de/uka/ipd/sdq/beagle/core/facade/JdtProjectClasspathExtractor.html" title="class in de.uka.ipd.sdq.beagle.core.facade">JdtProjectClasspathExtractor</a></dt>
+<dd>
+<div class="block">Builds a class path string separated by <a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html?is-external=true#pathSeparator" title="class or interface in java.io"><code>File.pathSeparator</code></a> out of the
+ project’s class path.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/measurement/order/AbstractMeasurementEvent.html#getCodeSection--">getCodeSection()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.measurement.order.<a href="de/uka/ipd/sdq/beagle/core/measurement/order/AbstractMeasurementEvent.html" title="class in de.uka.ipd.sdq.beagle.core.measurement.order">AbstractMeasurementEvent</a></dt>
 <dd>&nbsp;</dd>
@@ -973,6 +1124,10 @@
 <dd>
 <div class="block">Get the <a href="de/uka/ipd/sdq/beagle/core/evaluableexpressions/EvaluableExpression.html" title="interface in de.uka.ipd.sdq.beagle.core.evaluableexpressions"><code>EvaluableExpression</code></a> which is set as exponent.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/SeffElementCreator.html#getExternalCallParameterForId-java.lang.String-">getExternalCallParameterForId(String)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/SeffElementCreator.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">SeffElementCreator</a></dt>
+<dd>
+<div class="block">Creates an <a href="de/uka/ipd/sdq/beagle/core/ExternalCallParameter.html" title="class in de.uka.ipd.sdq.beagle.core"><code>ExternalCallParameter</code></a> for a given ID.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/Blackboard.html#getExternalCallParametersToBeMeasured--">getExternalCallParametersToBeMeasured()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/Blackboard.html" title="class in de.uka.ipd.sdq.beagle.core">Blackboard</a></dt>
 <dd>
 <div class="block">Returns all <a href="de/uka/ipd/sdq/beagle/core/ExternalCallParameter.html" title="class in de.uka.ipd.sdq.beagle.core">external call parameters</a> which shall
@@ -1002,7 +1157,12 @@
 <dd>
 <div class="block">Gets the report’s failure description.</div>
 </dd>
-<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/facade/BeagleConfiguration.html#getFileProvider--">getFileProvider()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.facade.<a href="de/uka/ipd/sdq/beagle/core/facade/BeagleConfiguration.html" title="class in de.uka.ipd.sdq.beagle.core.facade">BeagleConfiguration</a></dt>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseAstInstrumentor.InstrumentationResultFileProvider.html#getFileFor-java.lang.String-">getFileFor(String)</a></span> - Method in interface de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseAstInstrumentor.InstrumentationResultFileProvider.html" title="interface in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">EclipseAstInstrumentor.InstrumentationResultFileProvider</a></dt>
+<dd>
+<div class="block">Appoints a file the instrumented source code of the Java type denoted by
+ <code>fullyQualifiedName</code> shall be written to.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/ProjectInformation.html#getFileProvider--">getFileProvider()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/ProjectInformation.html" title="class in de.uka.ipd.sdq.beagle.core">ProjectInformation</a></dt>
 <dd>
 <div class="block">Queries the provider responsible to get the source files Beagle shall analyse.</div>
 </dd>
@@ -1057,6 +1217,10 @@
 <dd>
 <div class="block">Creates a handler instances of <code>clientType</code> may report failures to.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/CodeSectionIdentifier.html#getIdOf-de.uka.ipd.sdq.beagle.core.CodeSection-">getIdOf(CodeSection)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/CodeSectionIdentifier.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker">CodeSectionIdentifier</a></dt>
+<dd>
+<div class="block">Gets the identifier that repersents the provided <code>codeSection</code>.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/evaluableexpressions/IfThenElseExpression.html#getIfStatement--">getIfStatement()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.evaluableexpressions.<a href="de/uka/ipd/sdq/beagle/core/evaluableexpressions/IfThenElseExpression.html" title="class in de.uka.ipd.sdq.beagle.core.evaluableexpressions">IfThenElseExpression</a></dt>
 <dd>
 <div class="block">Get expression contained in if-statement.</div>
@@ -1065,9 +1229,13 @@
 <dd>
 <div class="block">Gives the parameters index in the parameter list.</div>
 </dd>
-<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/measurement/order/MeasurementOrder.html#getLaunchConfigurations--">getLaunchConfigurations()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.measurement.order.<a href="de/uka/ipd/sdq/beagle/core/measurement/order/MeasurementOrder.html" title="class in de.uka.ipd.sdq.beagle.core.measurement.order">MeasurementOrder</a></dt>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/facade/BeagleConfiguration.html#getJavaProject--">getJavaProject()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.facade.<a href="de/uka/ipd/sdq/beagle/core/facade/BeagleConfiguration.html" title="class in de.uka.ipd.sdq.beagle.core.facade">BeagleConfiguration</a></dt>
 <dd>
-<div class="block">Gives launch configurations for the code under test.</div>
+<div class="block">Gives the <code>IJavaProject</code> to analyse.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/ProjectInformation.html#getLaunchConfigurations--">getLaunchConfigurations()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/ProjectInformation.html" title="class in de.uka.ipd.sdq.beagle.core">ProjectInformation</a></dt>
+<dd>
+<div class="block">Queries the configurations defining how to launch the measured software.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/SeffLoop.html#getLoopBody--">getLoopBody()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/SeffLoop.html" title="class in de.uka.ipd.sdq.beagle.core">SeffLoop</a></dt>
 <dd>
@@ -1233,6 +1401,16 @@
 <dd>
 <div class="block">Gives a name which is a unique identifier for this resource type.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseStatementCreationHelper.html#getName-java.lang.String...-">getName(String...)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseStatementCreationHelper.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">EclipseStatementCreationHelper</a></dt>
+<dd>
+<div class="block">Returns a <code>Name</code> that represents the qualified name consisting of the given
+ <code>parts</code>.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseStatementCreationHelper.html#getName-org.eclipse.jdt.core.dom.Name-java.lang.String-">getName(Name, String)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseStatementCreationHelper.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">EclipseStatementCreationHelper</a></dt>
+<dd>
+<div class="block">Returns a <code>Name</code> that starts with an existing <code>name</code> and continues with
+ <code>next</code>.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/measurement/order/MeasurementOrder.html#getParameterCharacteriser--">getParameterCharacteriser()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.measurement.order.<a href="de/uka/ipd/sdq/beagle/core/measurement/order/MeasurementOrder.html" title="class in de.uka.ipd.sdq.beagle.core.measurement.order">MeasurementOrder</a></dt>
 <dd>
 <div class="block">Gives the parameter characteriser, that all measurement tools must use for
@@ -1258,6 +1436,34 @@
 <dd>
 <div class="block">Gets the identifier used for <code>loop</code> in the PCM repository.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmBeagleMappings.html#getPcmIdOf-de.uka.ipd.sdq.beagle.core.ExternalCallParameter-">getPcmIdOf(ExternalCallParameter)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmBeagleMappings.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmBeagleMappings</a></dt>
+<dd>
+<div class="block">Gets the identifier used for <code>loop</code> in the PCM repository.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/ResourceTypeMappings.html#getPcmType-de.uka.ipd.sdq.beagle.core.ResourceDemandType-">getPcmType(ResourceDemandType)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/ResourceTypeMappings.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">ResourceTypeMappings</a></dt>
+<dd>
+<div class="block">Reading from the bidirectional map.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/analysis/MeasurementResultAnalyserBlackboardView.html#getProjectInformation--">getProjectInformation()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.analysis.<a href="de/uka/ipd/sdq/beagle/core/analysis/MeasurementResultAnalyserBlackboardView.html" title="class in de.uka.ipd.sdq.beagle.core.analysis">MeasurementResultAnalyserBlackboardView</a></dt>
+<dd>
+<div class="block">Information about the project belonging to this blackboard.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/analysis/ProposedExpressionAnalyserBlackboardView.html#getProjectInformation--">getProjectInformation()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.analysis.<a href="de/uka/ipd/sdq/beagle/core/analysis/ProposedExpressionAnalyserBlackboardView.html" title="class in de.uka.ipd.sdq.beagle.core.analysis">ProposedExpressionAnalyserBlackboardView</a></dt>
+<dd>
+<div class="block">Information about the project belonging to this blackboard.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/Blackboard.html#getProjectInformation--">getProjectInformation()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/Blackboard.html" title="class in de.uka.ipd.sdq.beagle.core">Blackboard</a></dt>
+<dd>
+<div class="block">Information about the project belonging to this blackboard.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/measurement/MeasurementControllerBlackboardView.html#getProjectInformation--">getProjectInformation()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.measurement.<a href="de/uka/ipd/sdq/beagle/core/measurement/MeasurementControllerBlackboardView.html" title="class in de.uka.ipd.sdq.beagle.core.measurement">MeasurementControllerBlackboardView</a></dt>
+<dd>
+<div class="block">Information about the project belonging to this blackboard.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/measurement/order/MeasurementOrder.html#getProjectInformation--">getProjectInformation()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.measurement.order.<a href="de/uka/ipd/sdq/beagle/core/measurement/order/MeasurementOrder.html" title="class in de.uka.ipd.sdq.beagle.core.measurement.order">MeasurementOrder</a></dt>
+<dd>
+<div class="block">Gives information about the measured project.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/analysis/ProposedExpressionAnalyserBlackboardView.html#getProposedExpressionFor-de.uka.ipd.sdq.beagle.core.MeasurableSeffElement-">getProposedExpressionFor(MeasurableSeffElement)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.analysis.<a href="de/uka/ipd/sdq/beagle/core/analysis/ProposedExpressionAnalyserBlackboardView.html" title="class in de.uka.ipd.sdq.beagle.core.analysis">ProposedExpressionAnalyserBlackboardView</a></dt>
 <dd>
 <div class="block">Delegates to
@@ -1274,6 +1480,10 @@
 <dd>
 <div class="block">Returns a set of all <a href="de/uka/ipd/sdq/beagle/core/evaluableexpressions/EvaluableExpression.html" title="interface in de.uka.ipd.sdq.beagle.core.evaluableexpressions">evaluable expressions</a>
  proposed for <code>element</code>.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/SeffElementCreator.html#getRDIAForId-java.lang.String-">getRDIAForId(String)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/SeffElementCreator.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">SeffElementCreator</a></dt>
+<dd>
+<div class="block">Creates a <a href="de/uka/ipd/sdq/beagle/core/ResourceDemandingInternalAction.html" title="class in de.uka.ipd.sdq.beagle.core"><code>ResourceDemandingInternalAction</code></a> for a given ID.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/Blackboard.html#getRdiasToBeMeasured--">getRdiasToBeMeasured()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/Blackboard.html" title="class in de.uka.ipd.sdq.beagle.core">Blackboard</a></dt>
 <dd>
@@ -1304,6 +1514,10 @@
 <dd>
 <div class="block">Gets the function that lets Beagle retry the failed failed action.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/CodeSectionIdentifier.html#getSectionFor-int-">getSectionFor(int)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/CodeSectionIdentifier.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker">CodeSectionIdentifier</a></dt>
+<dd>
+<div class="block">Gets the code section that is identified by the provided <code>identifier</code>.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/Blackboard.html#getSeffBranchesToBeMeasured--">getSeffBranchesToBeMeasured()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/Blackboard.html" title="class in de.uka.ipd.sdq.beagle.core">Blackboard</a></dt>
 <dd>
 <div class="block"><a href="de/uka/ipd/sdq/beagle/core/SeffBranch.html" title="class in de.uka.ipd.sdq.beagle.core">SEFF branches</a> that shall be measured for their branch
@@ -1318,6 +1532,14 @@
 <dd>
 <div class="block">Delegates to
  <a href="de/uka/ipd/sdq/beagle/core/Blackboard.html#getSeffBranchesToBeMeasured--"><code>Blackboard.getSeffBranchesToBeMeasured()</code></a>.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/SeffElementCreator.html#getSeffBranchForId-java.lang.String-">getSeffBranchForId(String)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/SeffElementCreator.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">SeffElementCreator</a></dt>
+<dd>
+<div class="block">Creates a <a href="de/uka/ipd/sdq/beagle/core/SeffBranch.html" title="class in de.uka.ipd.sdq.beagle.core"><code>SeffBranch</code></a> for a given ID.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/SeffElementCreator.html#getSeffLoopForId-java.lang.String-">getSeffLoopForId(String)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/SeffElementCreator.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">SeffElementCreator</a></dt>
+<dd>
+<div class="block">Creates a <a href="de/uka/ipd/sdq/beagle/core/SeffLoop.html" title="class in de.uka.ipd.sdq.beagle.core"><code>SeffLoop</code></a> for a given ID.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/Blackboard.html#getSeffLoopsToBeMeasured--">getSeffLoopsToBeMeasured()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/Blackboard.html" title="class in de.uka.ipd.sdq.beagle.core">Blackboard</a></dt>
 <dd>
@@ -1366,6 +1588,10 @@
 <div class="block">Get expression contained in then-statement.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/facade/BeagleConfiguration.html#getTimeout--">getTimeout()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.facade.<a href="de/uka/ipd/sdq/beagle/core/facade/BeagleConfiguration.html" title="class in de.uka.ipd.sdq.beagle.core.facade">BeagleConfiguration</a></dt>
+<dd>
+<div class="block">Returns the timeout to be used.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/ProjectInformation.html#getTimeout--">getTimeout()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/ProjectInformation.html" title="class in de.uka.ipd.sdq.beagle.core">ProjectInformation</a></dt>
 <dd>
 <div class="block">Returns the timeout to be used.</div>
 </dd>
@@ -1508,6 +1734,11 @@
 <dd>
 <div class="block">Query whether this mapping contains a PCM identifier for <code>loop</code>.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmBeagleMappings.html#hasPcmIdOf-de.uka.ipd.sdq.beagle.core.ExternalCallParameter-">hasPcmIdOf(ExternalCallParameter)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmBeagleMappings.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmBeagleMappings</a></dt>
+<dd>
+<div class="block">Query whether this mapping contains a PCM identifier for
+ <code>ExternalCallParameter</code>.</div>
+</dd>
 </dl>
 <a name="I:I">
 <!--   -->
@@ -1526,9 +1757,46 @@
 <dd>
 <div class="block">Initialises the <a href="de/uka/ipd/sdq/beagle/core/judge/FinalJudge.html" title="class in de.uka.ipd.sdq.beagle.core.judge"><code>FinalJudge</code></a> object.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/ResourceTypeMappings.html#initialise--">initialise()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/ResourceTypeMappings.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">ResourceTypeMappings</a></dt>
+<dd>
+<div class="block">Creates a mapping for (<a href="de/uka/ipd/sdq/beagle/core/ResourceDemandType.html#RESOURCE_TYPE_CPU_NS"><code>ResourceDemandType.RESOURCE_TYPE_CPU_NS</code></a>,<code>CPU</code>)
+ and (<a href="de/uka/ipd/sdq/beagle/core/ResourceDemandType.html#RESOURCE_TYPE_HDD_NS"><code>ResourceDemandType.RESOURCE_TYPE_HDD_NS</code></a>, <code>HDD</code>).</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/remote/MeasurementCentral.html#INSTANCE">INSTANCE</a></span> - Static variable in class de.uka.ipd.sdq.beagle.measurement.kieker.remote.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/remote/MeasurementCentral.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.remote">MeasurementCentral</a></dt>
+<dd>
+<div class="block">The singleton instance.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseAstInstrumentor.html#instrument--">instrument()</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseAstInstrumentor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">EclipseAstInstrumentor</a></dt>
+<dd>
+<div class="block">Executes the instrumentation based on the settings set on this instrumentor.</div>
+</dd>
+<dt><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/InstrumentationImpossibleException.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation"><span class="typeNameLink">InstrumentationImpossibleException</span></a> - Exception in <a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/package-summary.html">de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation</a></dt>
+<dd>
+<div class="block">Thrown if instrumentation of source code is not logically possible.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/InstrumentationImpossibleException.html#InstrumentationImpossibleException-java.lang.String-java.lang.Object...-">InstrumentationImpossibleException(String, Object...)</a></span> - Constructor for exception de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/InstrumentationImpossibleException.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">InstrumentationImpossibleException</a></dt>
+<dd>
+<div class="block">Creates an <code>InstrumentationImpossibleException</code>.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseAstInstrumentationStrategy.html#instrumentEnd-de.uka.ipd.sdq.beagle.core.CodeSection-org.eclipse.jdt.core.dom.AST-">instrumentEnd(CodeSection, AST)</a></span> - Method in interface de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseAstInstrumentationStrategy.html" title="interface in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">EclipseAstInstrumentationStrategy</a></dt>
+<dd>
+<div class="block">Provides a node to be inserted after <code>codeSection</code>.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/ResourceDemandInstrumentationStrategy.html#instrumentEnd-de.uka.ipd.sdq.beagle.core.CodeSection-org.eclipse.jdt.core.dom.AST-">instrumentEnd(CodeSection, AST)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/ResourceDemandInstrumentationStrategy.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker">ResourceDemandInstrumentationStrategy</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseAstInstrumentationStrategy.html#instrumentStart-de.uka.ipd.sdq.beagle.core.CodeSection-org.eclipse.jdt.core.dom.AST-">instrumentStart(CodeSection, AST)</a></span> - Method in interface de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseAstInstrumentationStrategy.html" title="interface in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">EclipseAstInstrumentationStrategy</a></dt>
+<dd>
+<div class="block">Provides a node to be inserted before <code>codeSection</code>.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/ResourceDemandInstrumentationStrategy.html#instrumentStart-de.uka.ipd.sdq.beagle.core.CodeSection-org.eclipse.jdt.core.dom.AST-">instrumentStart(CodeSection, AST)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/ResourceDemandInstrumentationStrategy.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker">ResourceDemandInstrumentationStrategy</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/EclipseCompiler.html#intoFolder-java.nio.file.Path-">intoFolder(Path)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/EclipseCompiler.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker">EclipseCompiler</a></dt>
+<dd>
+<div class="block">Set’s the compilations output folder to the provided <code>targetFolder</code>.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/facade/BeagleConfiguration.html#isFinal--">isFinal()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.facade.<a href="de/uka/ipd/sdq/beagle/core/facade/BeagleConfiguration.html" title="class in de.uka.ipd.sdq.beagle.core.facade">BeagleConfiguration</a></dt>
 <dd>
-<div class="block">Queries wether this configuration is in the <em>finalised</em> state.</div>
+<div class="block">Queries whether this configuration is in the <em>finalised</em> state.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/ResourceDemandType.html#isNs--">isNs()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/ResourceDemandType.html" title="class in de.uka.ipd.sdq.beagle.core">ResourceDemandType</a></dt>
 <dd>
@@ -1545,6 +1813,14 @@
 </a>
 <h2 class="title">J</h2>
 <dl>
+<dt><a href="de/uka/ipd/sdq/beagle/core/facade/JdtProjectClasspathExtractor.html" title="class in de.uka.ipd.sdq.beagle.core.facade"><span class="typeNameLink">JdtProjectClasspathExtractor</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/facade/package-summary.html">de.uka.ipd.sdq.beagle.core.facade</a></dt>
+<dd>
+<div class="block">Extracts the class path of an Eclipse Java project.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/facade/JdtProjectClasspathExtractor.html#JdtProjectClasspathExtractor-org.eclipse.jdt.core.IJavaProject-">JdtProjectClasspathExtractor(IJavaProject)</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.facade.<a href="de/uka/ipd/sdq/beagle/core/facade/JdtProjectClasspathExtractor.html" title="class in de.uka.ipd.sdq.beagle.core.facade">JdtProjectClasspathExtractor</a></dt>
+<dd>
+<div class="block">Creates the extractor for the given <code>project</code>.</div>
+</dd>
 <dt><a href="de/uka/ipd/sdq/beagle/core/facade/JdtProjectSourceCodeFileProvider.html" title="class in de.uka.ipd.sdq.beagle.core.facade"><span class="typeNameLink">JdtProjectSourceCodeFileProvider</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/facade/package-summary.html">de.uka.ipd.sdq.beagle.core.facade</a></dt>
 <dd>
 <div class="block">Provides source files from source folders of Eclipse Java Projects.</div>
@@ -1559,14 +1835,47 @@
 <div class="block">Implements the break condition for evolution of evaluable expressions.</div>
 </dd>
 </dl>
+<a name="I:K">
+<!--   -->
+</a>
+<h2 class="title">K</h2>
+<dl>
+<dt><a href="de/uka/ipd/sdq/beagle/measurement/kieker/KiekerMeasurementTool.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker"><span class="typeNameLink">KiekerMeasurementTool</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/measurement/kieker/package-summary.html">de.uka.ipd.sdq.beagle.measurement.kieker</a></dt>
+<dd>
+<div class="block">A measurement tool instrumenting the project’s source code to be measured by <a
+ href="http://kieker-monitoring.net/">Kieker</a>.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/KiekerMeasurementTool.html#KiekerMeasurementTool--">KiekerMeasurementTool()</a></span> - Constructor for class de.uka.ipd.sdq.beagle.measurement.kieker.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/KiekerMeasurementTool.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker">KiekerMeasurementTool</a></dt>
+<dd>&nbsp;</dd>
+</dl>
 <a name="I:L">
 <!--   -->
 </a>
 <h2 class="title">L</h2>
 <dl>
-<dt><a href="de/uka/ipd/sdq/beagle/core/measurement/order/LaunchConfiguration.html" title="interface in de.uka.ipd.sdq.beagle.core.measurement.order"><span class="typeNameLink">LaunchConfiguration</span></a> - Interface in <a href="de/uka/ipd/sdq/beagle/core/measurement/order/package-summary.html">de.uka.ipd.sdq.beagle.core.measurement.order</a></dt>
+<dt><a href="de/uka/ipd/sdq/beagle/core/facade/LauchConfigurationProvider.html" title="class in de.uka.ipd.sdq.beagle.core.facade"><span class="typeNameLink">LauchConfigurationProvider</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/facade/package-summary.html">de.uka.ipd.sdq.beagle.core.facade</a></dt>
 <dd>
-<div class="block">Interface for classes that execute the code under test.</div>
+<div class="block">Helper class to get the launch configurations for the project under analysis.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/facade/LauchConfigurationProvider.html#LauchConfigurationProvider-org.eclipse.jdt.core.IJavaProject-">LauchConfigurationProvider(IJavaProject)</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.facade.<a href="de/uka/ipd/sdq/beagle/core/facade/LauchConfigurationProvider.html" title="class in de.uka.ipd.sdq.beagle.core.facade">LauchConfigurationProvider</a></dt>
+<dd>
+<div class="block">A new launch configuration provider for a specific project.</div>
+</dd>
+<dt><a href="de/uka/ipd/sdq/beagle/core/LaunchConfiguration.html" title="interface in de.uka.ipd.sdq.beagle.core"><span class="typeNameLink">LaunchConfiguration</span></a> - Interface in <a href="de/uka/ipd/sdq/beagle/core/package-summary.html">de.uka.ipd.sdq.beagle.core</a></dt>
+<dd>
+<div class="block">Interface for configurations capable of executing the measured software.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/EmfHelper.html#loadFromXMIFile-java.lang.String-org.eclipse.emf.ecore.EPackage-">loadFromXMIFile(String, EPackage)</a></span> - Static method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/EmfHelper.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">EmfHelper</a></dt>
+<dd>
+<div class="block">Loads the root object from an EMF File.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/EmfHelper.html#loadFromXMIFile-java.lang.String-org.eclipse.emf.ecore.resource.ResourceSet-org.eclipse.emf.ecore.EPackage-">loadFromXMIFile(String, ResourceSet, EPackage)</a></span> - Static method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/EmfHelper.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">EmfHelper</a></dt>
+<dd>
+<div class="block">Loads the root object from an EMF File.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryFileLoader.html#loadRepositoryFromFile-java.io.File-">loadRepositoryFromFile(File)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryFileLoader.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmRepositoryFileLoader</a></dt>
+<dd>
+<div class="block">Load/Initialize the repository for a given File.</div>
 </dd>
 <dt><a href="de/uka/ipd/sdq/beagle/core/evaluableexpressions/LogarithmExpression.html" title="class in de.uka.ipd.sdq.beagle.core.evaluableexpressions"><span class="typeNameLink">LogarithmExpression</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/evaluableexpressions/package-summary.html">de.uka.ipd.sdq.beagle.core.evaluableexpressions</a></dt>
 <dd>
@@ -1615,6 +1924,8 @@
 <dd>
 <div class="block">Executes a measurement.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/KiekerMeasurementTool.html#measure-de.uka.ipd.sdq.beagle.core.measurement.order.MeasurementOrder-">measure(MeasurementOrder)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/KiekerMeasurementTool.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker">KiekerMeasurementTool</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/analysis/MeasurementResultAnalyserContributionsHandler.html#MEASUREMENT_RESULT_ANALYSERS_EXTENSION_POINT_CLASS_PROPERTY_NAME">MEASUREMENT_RESULT_ANALYSERS_EXTENSION_POINT_CLASS_PROPERTY_NAME</a></span> - Static variable in class de.uka.ipd.sdq.beagle.core.analysis.<a href="de/uka/ipd/sdq/beagle/core/analysis/MeasurementResultAnalyserContributionsHandler.html" title="class in de.uka.ipd.sdq.beagle.core.analysis">MeasurementResultAnalyserContributionsHandler</a></dt>
 <dd>
 <div class="block">The property name of the extension point for <a href="de/uka/ipd/sdq/beagle/core/analysis/MeasurementResultAnalyser.html" title="interface in de.uka.ipd.sdq.beagle.core.analysis">MeasurementResultAnalyser</a>
@@ -1627,6 +1938,10 @@
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/measurement/MeasurementToolContributionsHandler.html#MEASUREMENT_TOOL_EXTENSION_POINT_ID">MEASUREMENT_TOOL_EXTENSION_POINT_ID</a></span> - Static variable in class de.uka.ipd.sdq.beagle.core.measurement.<a href="de/uka/ipd/sdq/beagle/core/measurement/MeasurementToolContributionsHandler.html" title="class in de.uka.ipd.sdq.beagle.core.measurement">MeasurementToolContributionsHandler</a></dt>
 <dd>
 <div class="block">The extension point id for <a href="de/uka/ipd/sdq/beagle/core/measurement/MeasurementTool.html" title="interface in de.uka.ipd.sdq.beagle.core.measurement">MeasurementTools</a>.</div>
+</dd>
+<dt><a href="de/uka/ipd/sdq/beagle/measurement/kieker/remote/MeasurementCentral.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.remote"><span class="typeNameLink">MeasurementCentral</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/measurement/kieker/remote/package-summary.html">de.uka.ipd.sdq.beagle.measurement.kieker.remote</a></dt>
+<dd>
+<div class="block">The central measurement instance instrumented statements report to.</div>
 </dd>
 <dt><a href="de/uka/ipd/sdq/beagle/core/measurement/MeasurementController.html" title="class in de.uka.ipd.sdq.beagle.core.measurement"><span class="typeNameLink">MeasurementController</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/measurement/package-summary.html">de.uka.ipd.sdq.beagle.core.measurement</a></dt>
 <dd>
@@ -1672,7 +1987,7 @@
 <dd>
 <div class="block">The measurement order specifies what to measure for a <a href="de/uka/ipd/sdq/beagle/core/measurement/MeasurementTool.html" title="interface in de.uka.ipd.sdq.beagle.core.measurement"><code>MeasurementTool</code></a>.</div>
 </dd>
-<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/measurement/order/MeasurementOrder.html#MeasurementOrder-java.util.Set-java.util.Set-java.util.Set-java.util.Set-de.uka.ipd.sdq.beagle.core.measurement.order.ParameterCharacteriser-">MeasurementOrder(Set&lt;CodeSection&gt;, Set&lt;CodeSection&gt;, Set&lt;CodeSection&gt;, Set&lt;LaunchConfiguration&gt;, ParameterCharacteriser)</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.measurement.order.<a href="de/uka/ipd/sdq/beagle/core/measurement/order/MeasurementOrder.html" title="class in de.uka.ipd.sdq.beagle.core.measurement.order">MeasurementOrder</a></dt>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/measurement/order/MeasurementOrder.html#MeasurementOrder-java.util.Set-java.util.Set-java.util.Set-de.uka.ipd.sdq.beagle.core.ProjectInformation-de.uka.ipd.sdq.beagle.core.measurement.order.ParameterCharacteriser-">MeasurementOrder(Set&lt;CodeSection&gt;, Set&lt;CodeSection&gt;, Set&lt;CodeSection&gt;, ProjectInformation, ParameterCharacteriser)</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.measurement.order.<a href="de/uka/ipd/sdq/beagle/core/measurement/order/MeasurementOrder.html" title="class in de.uka.ipd.sdq.beagle.core.measurement.order">MeasurementOrder</a></dt>
 <dd>
 <div class="block">Create a measurement order for <a href="de/uka/ipd/sdq/beagle/core/measurement/MeasurementTool.html" title="interface in de.uka.ipd.sdq.beagle.core.measurement">MeasurementTools</a>.</div>
 </dd>
@@ -1681,6 +1996,13 @@
 <div class="block">An analyser that contributes <a href="de/uka/ipd/sdq/beagle/core/evaluableexpressions/EvaluableExpression.html" title="interface in de.uka.ipd.sdq.beagle.core.evaluableexpressions">EvaluableExpressions</a> to
  the <a href="de/uka/ipd/sdq/beagle/core/Blackboard.html" title="class in de.uka.ipd.sdq.beagle.core"><code>Blackboard</code></a> by analysing measurement results.</div>
 </dd>
+<dt><a href="de/uka/ipd/sdq/beagle/core/analysis/MeasurementResultAnalyserAverage.html" title="class in de.uka.ipd.sdq.beagle.core.analysis"><span class="typeNameLink">MeasurementResultAnalyserAverage</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/analysis/package-summary.html">de.uka.ipd.sdq.beagle.core.analysis</a></dt>
+<dd>
+<div class="block">This implementation of <a href="de/uka/ipd/sdq/beagle/core/analysis/MeasurementResultAnalyser.html" title="interface in de.uka.ipd.sdq.beagle.core.analysis"><code>MeasurementResultAnalyser</code></a> will contribute with static
+ created ProposedExpressions.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/analysis/MeasurementResultAnalyserAverage.html#MeasurementResultAnalyserAverage--">MeasurementResultAnalyserAverage()</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.analysis.<a href="de/uka/ipd/sdq/beagle/core/analysis/MeasurementResultAnalyserAverage.html" title="class in de.uka.ipd.sdq.beagle.core.analysis">MeasurementResultAnalyserAverage</a></dt>
+<dd>&nbsp;</dd>
 <dt><a href="de/uka/ipd/sdq/beagle/core/analysis/MeasurementResultAnalyserBlackboardView.html" title="class in de.uka.ipd.sdq.beagle.core.analysis"><span class="typeNameLink">MeasurementResultAnalyserBlackboardView</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/analysis/package-summary.html">de.uka.ipd.sdq.beagle.core.analysis</a></dt>
 <dd>
 <div class="block">View of the <a href="de/uka/ipd/sdq/beagle/core/Blackboard.html" title="class in de.uka.ipd.sdq.beagle.core"><code>Blackboard</code></a> designed to be used by <a href="de/uka/ipd/sdq/beagle/core/analysis/MeasurementResultAnalyser.html" title="interface in de.uka.ipd.sdq.beagle.core.analysis"><code>MeasurementResultAnalyser</code></a>
@@ -1745,6 +2067,12 @@
 <dd>
 <div class="block">Numeric value for "no timeout".</div>
 </dd>
+<dt><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation"><span class="typeNameLink">NotRecursingAstVisitor</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/package-summary.html">de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation</a></dt>
+<dd>
+<div class="block">An <code>ASTVisitor</code> that does not recursively traverse the visited node’s subtree(s).</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#NotRecursingAstVisitor--">NotRecursingAstVisitor()</a></span> - Constructor for class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
 </dl>
 <a name="I:O">
 <!--   -->
@@ -1808,7 +2136,11 @@
 <dd>
 <div class="block">Note: Designing this class is out of the project’s first iteration’s scope.</div>
 </dd>
-<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/BeagleController.html#pauseAnalysis--">pauseAnalysis()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/BeagleController.html" title="class in de.uka.ipd.sdq.beagle.core">BeagleController</a></dt>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmNameParser.html#parse-java.lang.String-">parse(String)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmNameParser.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmNameParser</a></dt>
+<dd>
+<div class="block">Parsing a SoMoX-created String to get the annotated CodeSection.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/facade/BeagleController.html#pauseAnalysis--">pauseAnalysis()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.facade.<a href="de/uka/ipd/sdq/beagle/core/facade/BeagleController.html" title="class in de.uka.ipd.sdq.beagle.core.facade">BeagleController</a></dt>
 <dd>
 <div class="block">Pauses the analysis.</div>
 </dd>
@@ -1819,20 +2151,52 @@
 </dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmBeagleMappings.html#PcmBeagleMappings--">PcmBeagleMappings()</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmBeagleMappings.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmBeagleMappings</a></dt>
 <dd>&nbsp;</dd>
-<dt><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactory.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection"><span class="typeNameLink">PcmRepositoryBlackboardFactory</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/pcmconnection/package-summary.html">de.uka.ipd.sdq.beagle.core.pcmconnection</a></dt>
+<dt><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmNameParser.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection"><span class="typeNameLink">PcmNameParser</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/pcmconnection/package-summary.html">de.uka.ipd.sdq.beagle.core.pcmconnection</a></dt>
+<dd>
+<div class="block">****************************EXTINCT****************************************************
+ ******** This parser is a draft that can only provide proper functionality if SoMoX
+ does not change its naming convention for EntityNames.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmNameParser.html#PcmNameParser-de.uka.ipd.sdq.beagle.core.facade.SourceCodeFileProvider-">PcmNameParser(SourceCodeFileProvider)</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmNameParser.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmNameParser</a></dt>
+<dd>
+<div class="block">Creates a new name parser for a specific project to analyse.</div>
+</dd>
+<dt><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactoryAdder.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection"><span class="typeNameLink">PcmRepositoryBlackboardFactoryAdder</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/pcmconnection/package-summary.html">de.uka.ipd.sdq.beagle.core.pcmconnection</a></dt>
 <dd>
 <div class="block">Creates <a href="de/uka/ipd/sdq/beagle/core/Blackboard.html" title="class in de.uka.ipd.sdq.beagle.core"><code>Blackboard</code></a> instances suitable to analyse elements from a PCM
  repository.</div>
 </dd>
-<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactory.html#PcmRepositoryBlackboardFactory-java.io.File...-">PcmRepositoryBlackboardFactory(File...)</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactory.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmRepositoryBlackboardFactory</a></dt>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactoryAdder.html#PcmRepositoryBlackboardFactoryAdder-java.lang.String-de.uka.ipd.sdq.beagle.core.facade.SourceCodeFileProvider-">PcmRepositoryBlackboardFactoryAdder(String, SourceCodeFileProvider)</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactoryAdder.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmRepositoryBlackboardFactoryAdder</a></dt>
 <dd>
 <div class="block">Creates a factory that will search the provided PCM files for <em>PCM
  elements</em>.</div>
 </dd>
-<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactory.html#PcmRepositoryBlackboardFactory-java.util.Set-">PcmRepositoryBlackboardFactory(Set&lt;File&gt;)</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactory.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmRepositoryBlackboardFactory</a></dt>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactoryAdder.html#PcmRepositoryBlackboardFactoryAdder-java.io.File-de.uka.ipd.sdq.beagle.core.facade.SourceCodeFileProvider-">PcmRepositoryBlackboardFactoryAdder(File, SourceCodeFileProvider)</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactoryAdder.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmRepositoryBlackboardFactoryAdder</a></dt>
 <dd>
-<div class="block">Creates a factory that will search the provided PCM files for <em>PCM
- elements</em>.</div>
+<div class="block">Creates a factory that will search the provided PCM file for <em>PCM elements</em>.</div>
+</dd>
+<dt><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryExtractor.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection"><span class="typeNameLink">PcmRepositoryExtractor</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/pcmconnection/package-summary.html">de.uka.ipd.sdq.beagle.core.pcmconnection</a></dt>
+<dd>
+<div class="block">Extracting a given Pcm repository.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryExtractor.html#PcmRepositoryExtractor-de.uka.ipd.sdq.beagle.core.facade.SourceCodeFileProvider-">PcmRepositoryExtractor(SourceCodeFileProvider)</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryExtractor.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmRepositoryExtractor</a></dt>
+<dd>
+<div class="block">Creates a new name parser for a specific project to analyse.</div>
+</dd>
+<dt><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryFileLoader.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection"><span class="typeNameLink">PcmRepositoryFileLoader</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/pcmconnection/package-summary.html">de.uka.ipd.sdq.beagle.core.pcmconnection</a></dt>
+<dd>
+<div class="block">Contains a method to load a <code>RepositoryImpl</code>-instance from a given <a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io"><code>File</code></a>.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryFileLoader.html#PcmRepositoryFileLoader--">PcmRepositoryFileLoader()</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryFileLoader.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmRepositoryFileLoader</a></dt>
+<dd>&nbsp;</dd>
+<dt><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositorySeffExtractor.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection"><span class="typeNameLink">PcmRepositorySeffExtractor</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/pcmconnection/package-summary.html">de.uka.ipd.sdq.beagle.core.pcmconnection</a></dt>
+<dd>
+<div class="block">Extractor class for SEFFElements.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositorySeffExtractor.html#PcmRepositorySeffExtractor-java.util.Set-java.util.Set-java.util.Set-java.util.Set-de.uka.ipd.sdq.beagle.core.pcmconnection.PcmBeagleMappings-de.uka.ipd.sdq.beagle.core.facade.SourceCodeFileProvider-">PcmRepositorySeffExtractor(Set&lt;SeffLoop&gt;, Set&lt;SeffBranch&gt;, Set&lt;ResourceDemandingInternalAction&gt;, Set&lt;ExternalCallParameter&gt;, PcmBeagleMappings, SourceCodeFileProvider)</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositorySeffExtractor.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmRepositorySeffExtractor</a></dt>
+<dd>
+<div class="block">Constructor needs access to the real sets (no copy!), manipulating them by adding
+ all extracted SeffElements.</div>
 </dd>
 <dt><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryWriter.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection"><span class="typeNameLink">PcmRepositoryWriter</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/pcmconnection/package-summary.html">de.uka.ipd.sdq.beagle.core.pcmconnection</a></dt>
 <dd>
@@ -1842,6 +2206,23 @@
 <dd>
 <div class="block">Creates a writer to write the results written on <code>blackboard</code> back to a PCM
  repository.</div>
+</dd>
+<dt><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryWriterAnnotator.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection"><span class="typeNameLink">PcmRepositoryWriterAnnotator</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/pcmconnection/package-summary.html">de.uka.ipd.sdq.beagle.core.pcmconnection</a></dt>
+<dd>
+<div class="block">This class is offering a method to annotate all final EvaluableExpressions of a given
+ Blackboard to a PCM-repository.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryWriterAnnotator.html#PcmRepositoryWriterAnnotator-de.uka.ipd.sdq.beagle.core.Blackboard-de.uka.ipd.sdq.beagle.core.pcmconnection.PcmBeagleMappings-">PcmRepositoryWriterAnnotator(Blackboard, PcmBeagleMappings)</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryWriterAnnotator.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmRepositoryWriterAnnotator</a></dt>
+<dd>
+<div class="block">Helper class for <a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryWriter.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection"><code>PcmRepositoryWriter</code></a>.</div>
+</dd>
+<dt><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryWriterAnnotatorEvaEx.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection"><span class="typeNameLink">PcmRepositoryWriterAnnotatorEvaEx</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/pcmconnection/package-summary.html">de.uka.ipd.sdq.beagle.core.pcmconnection</a></dt>
+<dd>
+<div class="block">This class contains the logic for converting and annotating EvaluableExpressions.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryWriterAnnotatorEvaEx.html#PcmRepositoryWriterAnnotatorEvaEx--">PcmRepositoryWriterAnnotatorEvaEx()</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryWriterAnnotatorEvaEx.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">PcmRepositoryWriterAnnotatorEvaEx</a></dt>
+<dd>
+<div class="block">Constructor.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/AnalysisController.html#performAnalysis--">performAnalysis()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/AnalysisController.html" title="class in de.uka.ipd.sdq.beagle.core">AnalysisController</a></dt>
 <dd>
@@ -1853,6 +2234,21 @@
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/gui/Activator.html#PLUGIN_ID">PLUGIN_ID</a></span> - Static variable in class de.uka.ipd.sdq.beagle.gui.<a href="de/uka/ipd/sdq/beagle/gui/Activator.html" title="class in de.uka.ipd.sdq.beagle.gui">Activator</a></dt>
 <dd>
 <div class="block">The plug-in ID.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/EclipseLaunchConfigurationLaunchConfiguration.html#prependClasspath-java.lang.String-">prependClasspath(String)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/EclipseLaunchConfigurationLaunchConfiguration.html" title="class in de.uka.ipd.sdq.beagle.core">EclipseLaunchConfigurationLaunchConfiguration</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/LaunchConfiguration.html#prependClasspath-java.lang.String-">prependClasspath(String)</a></span> - Method in interface de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/LaunchConfiguration.html" title="interface in de.uka.ipd.sdq.beagle.core">LaunchConfiguration</a></dt>
+<dd>
+<div class="block">Adds the given <code>classPathEntry</code> to the start of the Java classpath used when
+ launching the software.</div>
+</dd>
+<dt><a href="de/uka/ipd/sdq/beagle/core/ProjectInformation.html" title="class in de.uka.ipd.sdq.beagle.core"><span class="typeNameLink">ProjectInformation</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/package-summary.html">de.uka.ipd.sdq.beagle.core</a></dt>
+<dd>
+<div class="block">Holds information about the project under analysis.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/ProjectInformation.html#ProjectInformation-int-de.uka.ipd.sdq.beagle.core.facade.SourceCodeFileProvider-java.lang.String-java.nio.charset.Charset-java.util.Set-">ProjectInformation(int, SourceCodeFileProvider, String, Charset, Set&lt;LaunchConfiguration&gt;)</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/ProjectInformation.html" title="class in de.uka.ipd.sdq.beagle.core">ProjectInformation</a></dt>
+<dd>
+<div class="block">Creates a new Project Information.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/analysis/ProposedExpressionAnalyserContributionsHandler.html#PROPOSED_EXPRESSION_ANALYSERS_EXTENSION_POINT_CLASS_PROPERTY_NAME">PROPOSED_EXPRESSION_ANALYSERS_EXTENSION_POINT_CLASS_PROPERTY_NAME</a></span> - Static variable in class de.uka.ipd.sdq.beagle.core.analysis.<a href="de/uka/ipd/sdq/beagle/core/analysis/ProposedExpressionAnalyserContributionsHandler.html" title="class in de.uka.ipd.sdq.beagle.core.analysis">ProposedExpressionAnalyserContributionsHandler</a></dt>
 <dd>
@@ -2048,6 +2444,16 @@
 <div class="block">Creates a ResourceDemandingInternalAction for a specific resource type using a
  given code section.</div>
 </dd>
+<dt><a href="de/uka/ipd/sdq/beagle/measurement/kieker/ResourceDemandInstrumentationStrategy.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker"><span class="typeNameLink">ResourceDemandInstrumentationStrategy</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/measurement/kieker/package-summary.html">de.uka.ipd.sdq.beagle.measurement.kieker</a></dt>
+<dd>
+<div class="block">Provides instrumentation statements to instrument code sections for which resource
+ demands are to be measured.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/ResourceDemandInstrumentationStrategy.html#ResourceDemandInstrumentationStrategy-de.uka.ipd.sdq.beagle.measurement.kieker.CodeSectionIdentifier-">ResourceDemandInstrumentationStrategy(CodeSectionIdentifier)</a></span> - Constructor for class de.uka.ipd.sdq.beagle.measurement.kieker.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/ResourceDemandInstrumentationStrategy.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker">ResourceDemandInstrumentationStrategy</a></dt>
+<dd>
+<div class="block">Creates a strategey that will use the provided <code>identifier</code> to identify code
+ sections in the instrumentation code.</div>
+</dd>
 <dt><a href="de/uka/ipd/sdq/beagle/core/measurement/ResourceDemandMeasurementResult.html" title="class in de.uka.ipd.sdq.beagle.core.measurement"><span class="typeNameLink">ResourceDemandMeasurementResult</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/measurement/package-summary.html">de.uka.ipd.sdq.beagle.core.measurement</a></dt>
 <dd>
 <div class="block">A result of measuring resource demands of a code section.</div>
@@ -2069,6 +2475,18 @@
 <dd>
 <div class="block">Creates a custom resource type.</div>
 </dd>
+<dt><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/ResourceTypeMappings.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection"><span class="typeNameLink">ResourceTypeMappings</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/pcmconnection/package-summary.html">de.uka.ipd.sdq.beagle.core.pcmconnection</a></dt>
+<dd>
+<div class="block">This class offers a bidirectional mapping between the ResourceTypes of Beagle and the
+ PalladioComponentModel.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/ResourceTypeMappings.html#ResourceTypeMappings--">ResourceTypeMappings()</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/ResourceTypeMappings.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">ResourceTypeMappings</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/EmfHelper.html#retainAll-java.util.Collection-java.util.Collection-">retainAll(Collection&lt;? extends Identifier&gt;, Collection&lt;? extends EObject&gt;)</a></span> - Static method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/EmfHelper.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">EmfHelper</a></dt>
+<dd>
+<div class="block"><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html?is-external=true#retainAll-java.util.Collection-" title="class or interface in java.util"><code>Collection.retainAll(Collection)</code></a> for <code>Identifiers</code> based
+ on <a href="de/uka/ipd/sdq/beagle/core/pcmconnection/EmfHelper.html#checkIdentity-org.eclipse.emf.ecore.EObject-org.eclipse.emf.ecore.EObject-"><code>EmfHelper.checkIdentity(EObject, EObject)</code></a>.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/failurehandling/FailureReport.html#retryWith-java.util.function.Supplier-">retryWith(Supplier&lt;RECOVER_TYPE&gt;)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.failurehandling.<a href="de/uka/ipd/sdq/beagle/core/failurehandling/FailureReport.html" title="class in de.uka.ipd.sdq.beagle.core.failurehandling">FailureReport</a></dt>
 <dd>
 <div class="block">Reports that the failure is recoverable by retrying the failed action by running
@@ -2085,6 +2503,10 @@
 </a>
 <h2 class="title">S</h2>
 <dl>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/EmfHelper.html#saveToXMIFile-org.eclipse.emf.ecore.EObject-java.lang.String-">saveToXMIFile(EObject, String)</a></span> - Static method in class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/EmfHelper.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">EmfHelper</a></dt>
+<dd>
+<div class="block">Save the given EObject to the file given by filename.</div>
+</dd>
 <dt><a href="de/uka/ipd/sdq/beagle/core/SeffBranch.html" title="class in de.uka.ipd.sdq.beagle.core"><span class="typeNameLink">SeffBranch</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/package-summary.html">de.uka.ipd.sdq.beagle.core</a></dt>
 <dd>
 <div class="block">Models branches in a component's SEFF, originating from conditional constructs.</div>
@@ -2092,6 +2514,16 @@
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/SeffBranch.html#SeffBranch-java.util.Set-">SeffBranch(Set&lt;CodeSection&gt;)</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/SeffBranch.html" title="class in de.uka.ipd.sdq.beagle.core">SeffBranch</a></dt>
 <dd>
 <div class="block">Creates a SeffBranch using a given code section.</div>
+</dd>
+<dt><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/SeffElementCreator.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection"><span class="typeNameLink">SeffElementCreator</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/pcmconnection/package-summary.html">de.uka.ipd.sdq.beagle.core.pcmconnection</a></dt>
+<dd>
+<div class="block">*****STUB! IMPLEMENTATION DEPENDS ON SOLUTION FOR SOURCECODEDECORATOR (SOMOX)!***** NOT
+ IN USAGE RIGHT NOW.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/pcmconnection/SeffElementCreator.html#SeffElementCreator--">SeffElementCreator()</a></span> - Constructor for class de.uka.ipd.sdq.beagle.core.pcmconnection.<a href="de/uka/ipd/sdq/beagle/core/pcmconnection/SeffElementCreator.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection">SeffElementCreator</a></dt>
+<dd>
+<div class="block">This constructor will need an association to Somox' sourceCodeDecotor as soon as a
+ working solution exists.</div>
 </dd>
 <dt><a href="de/uka/ipd/sdq/beagle/core/SeffLoop.html" title="class in de.uka.ipd.sdq.beagle.core"><span class="typeNameLink">SeffLoop</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/package-summary.html">de.uka.ipd.sdq.beagle.core</a></dt>
 <dd>
@@ -2112,22 +2544,47 @@
 <div class="block">Constructs a new <a href="de/uka/ipd/sdq/beagle/gui/SelectionOverviewWizardPage.html" title="class in de.uka.ipd.sdq.beagle.gui"><code>SelectionOverviewWizardPage</code></a> being linked to the given
  <code>beagleConfiguration</code>.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/BlackboardCreator.html#setBranches-java.util.Set-">setBranches(Set&lt;SeffBranch&gt;)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/BlackboardCreator.html" title="class in de.uka.ipd.sdq.beagle.core">BlackboardCreator</a></dt>
+<dd>
+<div class="block">Sets the Branches for the <a href="de/uka/ipd/sdq/beagle/core/Blackboard.html" title="class in de.uka.ipd.sdq.beagle.core"><code>Blackboard</code></a>.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/facade/BeagleConfiguration.html#setElements-java.util.List-">setElements(List&lt;Entity&gt;)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.facade.<a href="de/uka/ipd/sdq/beagle/core/facade/BeagleConfiguration.html" title="class in de.uka.ipd.sdq.beagle.core.facade">BeagleConfiguration</a></dt>
 <dd>
 <div class="block">Sets the elements to be measured to <code>elements</code>.</div>
 </dd>
-<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/facade/BeagleConfiguration.html#setFileProvider-de.uka.ipd.sdq.beagle.core.facade.SourceCodeFileProvider-">setFileProvider(SourceCodeFileProvider)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.facade.<a href="de/uka/ipd/sdq/beagle/core/facade/BeagleConfiguration.html" title="class in de.uka.ipd.sdq.beagle.core.facade">BeagleConfiguration</a></dt>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/BlackboardCreator.html#setExternalCalls-java.util.Set-">setExternalCalls(Set&lt;ExternalCallParameter&gt;)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/BlackboardCreator.html" title="class in de.uka.ipd.sdq.beagle.core">BlackboardCreator</a></dt>
 <dd>
-<div class="block">Sets the provider responsible to get the source files Beagle shall analyse.</div>
+<div class="block">The <a href="de/uka/ipd/sdq/beagle/core/ExternalCallParameter.html" title="class in de.uka.ipd.sdq.beagle.core">ExternalCallParameter</a> for the
+ <a href="de/uka/ipd/sdq/beagle/core/Blackboard.html" title="class in de.uka.ipd.sdq.beagle.core"><code>Blackboard</code></a>.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/Blackboard.html#setFinalExpressionFor-de.uka.ipd.sdq.beagle.core.MeasurableSeffElement-de.uka.ipd.sdq.beagle.core.evaluableexpressions.EvaluableExpression-">setFinalExpressionFor(MeasurableSeffElement, EvaluableExpression)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/Blackboard.html" title="class in de.uka.ipd.sdq.beagle.core">Blackboard</a></dt>
 <dd>
 <div class="block">Sets <code>expression</code> as the final description of <code>element</code>’s measurement
  results.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/BlackboardCreator.html#setFitnessFunction-de.uka.ipd.sdq.beagle.core.judge.EvaluableExpressionFitnessFunction-">setFitnessFunction(EvaluableExpressionFitnessFunction)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/BlackboardCreator.html" title="class in de.uka.ipd.sdq.beagle.core">BlackboardCreator</a></dt>
+<dd>
+<div class="block">The <a href="de/uka/ipd/sdq/beagle/core/judge/EvaluableExpressionFitnessFunction.html" title="interface in de.uka.ipd.sdq.beagle.core.judge"><code>EvaluableExpressionFitnessFunction</code></a> for the <a href="de/uka/ipd/sdq/beagle/core/Blackboard.html" title="class in de.uka.ipd.sdq.beagle.core"><code>Blackboard</code></a>.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/BlackboardCreator.html#setLoops-java.util.Set-">setLoops(Set&lt;SeffLoop&gt;)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/BlackboardCreator.html" title="class in de.uka.ipd.sdq.beagle.core">BlackboardCreator</a></dt>
+<dd>
+<div class="block">Sets the <a href="de/uka/ipd/sdq/beagle/core/SeffLoop.html" title="class in de.uka.ipd.sdq.beagle.core">SeffLoops</a> for the <a href="de/uka/ipd/sdq/beagle/core/Blackboard.html" title="class in de.uka.ipd.sdq.beagle.core"><code>Blackboard</code></a>.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/BlackboardCreator.html#setPcmMappings-de.uka.ipd.sdq.beagle.core.pcmconnection.PcmBeagleMappings-">setPcmMappings(PcmBeagleMappings)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/BlackboardCreator.html" title="class in de.uka.ipd.sdq.beagle.core">BlackboardCreator</a></dt>
+<dd>
+<div class="block">Sets the <a href="de/uka/ipd/sdq/beagle/core/pcmconnection/PcmBeagleMappings.html" title="class in de.uka.ipd.sdq.beagle.core.pcmconnection"><code>PcmBeagleMappings</code></a> for the <a href="de/uka/ipd/sdq/beagle/core/Blackboard.html" title="class in de.uka.ipd.sdq.beagle.core"><code>Blackboard</code></a> to create.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/BlackboardCreator.html#setProjectInformation-de.uka.ipd.sdq.beagle.core.ProjectInformation-">setProjectInformation(ProjectInformation)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/BlackboardCreator.html" title="class in de.uka.ipd.sdq.beagle.core">BlackboardCreator</a></dt>
+<dd>
+<div class="block">Sets the <a href="de/uka/ipd/sdq/beagle/core/ProjectInformation.html" title="class in de.uka.ipd.sdq.beagle.core"><code>ProjectInformation</code></a> for the <a href="de/uka/ipd/sdq/beagle/core/Blackboard.html" title="class in de.uka.ipd.sdq.beagle.core"><code>Blackboard</code></a>.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/failurehandling/FailureHandler.html#setProvider-de.uka.ipd.sdq.beagle.core.failurehandling.FailureHandler.FailureHandlerProvider-">setProvider(FailureHandler.FailureHandlerProvider)</a></span> - Static method in class de.uka.ipd.sdq.beagle.core.failurehandling.<a href="de/uka/ipd/sdq/beagle/core/failurehandling/FailureHandler.html" title="class in de.uka.ipd.sdq.beagle.core.failurehandling">FailureHandler</a></dt>
 <dd>
 <div class="block">Sets the provider of Failure Handlers.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/BlackboardCreator.html#setRdias-java.util.Set-">setRdias(Set&lt;ResourceDemandingInternalAction&gt;)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/BlackboardCreator.html" title="class in de.uka.ipd.sdq.beagle.core">BlackboardCreator</a></dt>
+<dd>
+<div class="block">Sets the <a href="de/uka/ipd/sdq/beagle/core/ResourceDemandingInternalAction.html" title="class in de.uka.ipd.sdq.beagle.core">ResourceDemandingInternalActions</a> for the <a href="de/uka/ipd/sdq/beagle/core/Blackboard.html" title="class in de.uka.ipd.sdq.beagle.core"><code>Blackboard</code></a>.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/facade/BeagleConfiguration.html#setRepositoryFile-java.io.File-">setRepositoryFile(File)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.facade.<a href="de/uka/ipd/sdq/beagle/core/facade/BeagleConfiguration.html" title="class in de.uka.ipd.sdq.beagle.core.facade">BeagleConfiguration</a></dt>
 <dd>
@@ -2159,12 +2616,21 @@
 </dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/gui/Activator.html#start-org.osgi.framework.BundleContext-">start(BundleContext)</a></span> - Method in class de.uka.ipd.sdq.beagle.gui.<a href="de/uka/ipd/sdq/beagle/gui/Activator.html" title="class in de.uka.ipd.sdq.beagle.gui">Activator</a></dt>
 <dd>&nbsp;</dd>
-<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/BeagleController.html#startAnalysis--">startAnalysis()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.<a href="de/uka/ipd/sdq/beagle/core/BeagleController.html" title="class in de.uka.ipd.sdq.beagle.core">BeagleController</a></dt>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/facade/BeagleController.html#startAnalysis--">startAnalysis()</a></span> - Method in class de.uka.ipd.sdq.beagle.core.facade.<a href="de/uka/ipd/sdq/beagle/core/facade/BeagleController.html" title="class in de.uka.ipd.sdq.beagle.core.facade">BeagleController</a></dt>
 <dd>
 <div class="block">Starts the analysis.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/remote/MeasurementCentral.html#startResourceDemand-int-">startResourceDemand(int)</a></span> - Static method in class de.uka.ipd.sdq.beagle.measurement.kieker.remote.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/remote/MeasurementCentral.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.remote">MeasurementCentral</a></dt>
+<dd>
+<div class="block">Reports that the resource demanding code section identified by <code>rdiaId</code> is
+ about to be entered.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/gui/Activator.html#stop-org.osgi.framework.BundleContext-">stop(BundleContext)</a></span> - Method in class de.uka.ipd.sdq.beagle.gui.<a href="de/uka/ipd/sdq/beagle/gui/Activator.html" title="class in de.uka.ipd.sdq.beagle.gui">Activator</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/remote/MeasurementCentral.html#stopResourceDemand--">stopResourceDemand()</a></span> - Static method in class de.uka.ipd.sdq.beagle.measurement.kieker.remote.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/remote/MeasurementCentral.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.remote">MeasurementCentral</a></dt>
+<dd>
+<div class="block">Reports that the last started resource demanding code section has just been left.</div>
+</dd>
 <dt><a href="de/uka/ipd/sdq/beagle/core/evaluableexpressions/SubtractionExpression.html" title="class in de.uka.ipd.sdq.beagle.core.evaluableexpressions"><span class="typeNameLink">SubtractionExpression</span></a> - Class in <a href="de/uka/ipd/sdq/beagle/core/evaluableexpressions/package-summary.html">de.uka.ipd.sdq.beagle.core.evaluableexpressions</a></dt>
 <dd>
 <div class="block">Expression that subtracts a subtrahend from a minuend.</div>
@@ -2252,6 +2718,28 @@
 <dd>
 <div class="block">Creates an exception for an encountered undefined variable.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/EclipseCompiler.html#useCharset-java.nio.charset.Charset-">useCharset(Charset)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/EclipseCompiler.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker">EclipseCompiler</a></dt>
+<dd>
+<div class="block">Makes the compiler use <code>charset</code> to read the source source code.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseAstInstrumentor.html#useCharset-java.nio.charset.Charset-">useCharset(Charset)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseAstInstrumentor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">EclipseAstInstrumentor</a></dt>
+<dd>
+<div class="block">Makes the instrumentor use <code>charset</code> to read and write source code.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/EclipseCompiler.html#useClassPath-java.lang.String-">useClassPath(String)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/EclipseCompiler.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker">EclipseCompiler</a></dt>
+<dd>
+<div class="block">Provides a classpath segment to be used by the compiler.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseAstInstrumentor.html#useStrategy-de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.EclipseAstInstrumentationStrategy-java.util.Collection-">useStrategy(EclipseAstInstrumentationStrategy, Collection&lt;CodeSection&gt;)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseAstInstrumentor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">EclipseAstInstrumentor</a></dt>
+<dd>
+<div class="block">Makes this instrumentor use the provided strategy to instrument the provided code
+ sections.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseAstInstrumentor.html#useStrategy-de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.EclipseAstInstrumentationStrategy-de.uka.ipd.sdq.beagle.core.CodeSection...-">useStrategy(EclipseAstInstrumentationStrategy, CodeSection...)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseAstInstrumentor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">EclipseAstInstrumentor</a></dt>
+<dd>
+<div class="block">Makes this instrumentor use the provided strategy to instrument the provided code
+ sections.</div>
+</dd>
 </dl>
 <a name="I:V">
 <!--   -->
@@ -2334,12 +2822,204 @@
 <dd>
 <div class="block">Called if the visited measurement event is a <a href="de/uka/ipd/sdq/beagle/core/measurement/order/ParameterValueCapturedEvent.html" title="class in de.uka.ipd.sdq.beagle.core.measurement.order"><code>ParameterValueCapturedEvent</code></a>.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.AnnotationTypeDeclaration-">visit(AnnotationTypeDeclaration)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.AnnotationTypeMemberDeclaration-">visit(AnnotationTypeMemberDeclaration)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.AnonymousClassDeclaration-">visit(AnonymousClassDeclaration)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.ArrayAccess-">visit(ArrayAccess)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.ArrayCreation-">visit(ArrayCreation)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.ArrayInitializer-">visit(ArrayInitializer)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.ArrayType-">visit(ArrayType)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.AssertStatement-">visit(AssertStatement)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.Assignment-">visit(Assignment)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.Block-">visit(Block)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.BlockComment-">visit(BlockComment)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.BooleanLiteral-">visit(BooleanLiteral)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.BreakStatement-">visit(BreakStatement)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.CastExpression-">visit(CastExpression)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.CatchClause-">visit(CatchClause)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.CharacterLiteral-">visit(CharacterLiteral)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.ClassInstanceCreation-">visit(ClassInstanceCreation)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.CompilationUnit-">visit(CompilationUnit)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.ConditionalExpression-">visit(ConditionalExpression)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.ConstructorInvocation-">visit(ConstructorInvocation)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.ContinueStatement-">visit(ContinueStatement)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.CreationReference-">visit(CreationReference)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.Dimension-">visit(Dimension)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.DoStatement-">visit(DoStatement)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.EmptyStatement-">visit(EmptyStatement)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.EnhancedForStatement-">visit(EnhancedForStatement)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.EnumConstantDeclaration-">visit(EnumConstantDeclaration)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.EnumDeclaration-">visit(EnumDeclaration)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.ExpressionMethodReference-">visit(ExpressionMethodReference)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.ExpressionStatement-">visit(ExpressionStatement)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.FieldAccess-">visit(FieldAccess)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.FieldDeclaration-">visit(FieldDeclaration)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.ForStatement-">visit(ForStatement)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.IfStatement-">visit(IfStatement)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.ImportDeclaration-">visit(ImportDeclaration)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.InfixExpression-">visit(InfixExpression)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.Initializer-">visit(Initializer)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.InstanceofExpression-">visit(InstanceofExpression)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.IntersectionType-">visit(IntersectionType)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.Javadoc-">visit(Javadoc)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.LabeledStatement-">visit(LabeledStatement)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.LambdaExpression-">visit(LambdaExpression)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.LineComment-">visit(LineComment)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.MarkerAnnotation-">visit(MarkerAnnotation)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.MemberRef-">visit(MemberRef)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.MemberValuePair-">visit(MemberValuePair)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.MethodRef-">visit(MethodRef)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.MethodRefParameter-">visit(MethodRefParameter)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.MethodDeclaration-">visit(MethodDeclaration)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.MethodInvocation-">visit(MethodInvocation)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.Modifier-">visit(Modifier)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.NameQualifiedType-">visit(NameQualifiedType)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.NormalAnnotation-">visit(NormalAnnotation)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.NullLiteral-">visit(NullLiteral)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.NumberLiteral-">visit(NumberLiteral)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.PackageDeclaration-">visit(PackageDeclaration)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.ParameterizedType-">visit(ParameterizedType)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.ParenthesizedExpression-">visit(ParenthesizedExpression)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.PostfixExpression-">visit(PostfixExpression)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.PrefixExpression-">visit(PrefixExpression)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.PrimitiveType-">visit(PrimitiveType)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.QualifiedName-">visit(QualifiedName)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.QualifiedType-">visit(QualifiedType)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.ReturnStatement-">visit(ReturnStatement)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.SimpleName-">visit(SimpleName)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.SimpleType-">visit(SimpleType)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.SingleMemberAnnotation-">visit(SingleMemberAnnotation)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.SingleVariableDeclaration-">visit(SingleVariableDeclaration)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.StringLiteral-">visit(StringLiteral)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.SuperConstructorInvocation-">visit(SuperConstructorInvocation)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.SuperFieldAccess-">visit(SuperFieldAccess)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.SuperMethodInvocation-">visit(SuperMethodInvocation)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.SuperMethodReference-">visit(SuperMethodReference)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.SwitchCase-">visit(SwitchCase)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.SwitchStatement-">visit(SwitchStatement)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.SynchronizedStatement-">visit(SynchronizedStatement)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.TagElement-">visit(TagElement)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.TextElement-">visit(TextElement)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.ThisExpression-">visit(ThisExpression)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.ThrowStatement-">visit(ThrowStatement)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.TryStatement-">visit(TryStatement)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.TypeDeclaration-">visit(TypeDeclaration)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.TypeDeclarationStatement-">visit(TypeDeclarationStatement)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.TypeLiteral-">visit(TypeLiteral)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.TypeMethodReference-">visit(TypeMethodReference)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.TypeParameter-">visit(TypeParameter)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.UnionType-">visit(UnionType)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.VariableDeclarationExpression-">visit(VariableDeclarationExpression)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.VariableDeclarationStatement-">visit(VariableDeclarationStatement)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.VariableDeclarationFragment-">visit(VariableDeclarationFragment)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.WhileStatement-">visit(WhileStatement)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html#visit-org.eclipse.jdt.core.dom.WildcardType-">visit(WildcardType)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/NotRecursingAstVisitor.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">NotRecursingAstVisitor</a></dt>
+<dd>&nbsp;</dd>
 </dl>
 <a name="I:W">
 <!--   -->
 </a>
 <h2 class="title">W</h2>
 <dl>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseStatementCreationHelper.html#wrap-org.eclipse.jdt.core.dom.Statement:A-">wrap(Statement[])</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseStatementCreationHelper.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">EclipseStatementCreationHelper</a></dt>
+<dd>
+<div class="block">Wraps the given <code>statements</code> into a <code>Block</code>.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseStatementCreationHelper.html#wrap-java.util.List-">wrap(List&lt;Statement&gt;)</a></span> - Method in class de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation.<a href="de/uka/ipd/sdq/beagle/measurement/kieker/instrumentation/EclipseStatementCreationHelper.html" title="class in de.uka.ipd.sdq.beagle.measurement.kieker.instrumentation">EclipseStatementCreationHelper</a></dt>
+<dd>
+<div class="block">Wraps the given <code>statements</code> into a <code>Block</code>.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="de/uka/ipd/sdq/beagle/core/analysis/MeasurementResultAnalyserBlackboardView.html#writeFor-java.lang.Class-WRITTEN_TYPE-">writeFor(Class&lt;? extends BlackboardStorer&lt;WRITTEN_TYPE&gt;&gt;, WRITTEN_TYPE)</a></span> - Method in class de.uka.ipd.sdq.beagle.core.analysis.<a href="de/uka/ipd/sdq/beagle/core/analysis/MeasurementResultAnalyserBlackboardView.html" title="class in de.uka.ipd.sdq.beagle.core.analysis">MeasurementResultAnalyserBlackboardView</a></dt>
 <dd>
 <div class="block">Delegates to
@@ -2369,7 +3049,7 @@
 <div class="block">Writes the Beagle’s findings to the <code>repositoryFile</code>.</div>
 </dd>
 </dl>
-<a href="#I:A">A</a>&nbsp;<a href="#I:B">B</a>&nbsp;<a href="#I:C">C</a>&nbsp;<a href="#I:D">D</a>&nbsp;<a href="#I:E">E</a>&nbsp;<a href="#I:F">F</a>&nbsp;<a href="#I:G">G</a>&nbsp;<a href="#I:H">H</a>&nbsp;<a href="#I:I">I</a>&nbsp;<a href="#I:J">J</a>&nbsp;<a href="#I:L">L</a>&nbsp;<a href="#I:M">M</a>&nbsp;<a href="#I:N">N</a>&nbsp;<a href="#I:O">O</a>&nbsp;<a href="#I:P">P</a>&nbsp;<a href="#I:R">R</a>&nbsp;<a href="#I:S">S</a>&nbsp;<a href="#I:T">T</a>&nbsp;<a href="#I:U">U</a>&nbsp;<a href="#I:V">V</a>&nbsp;<a href="#I:W">W</a>&nbsp;</div>
+<a href="#I:A">A</a>&nbsp;<a href="#I:B">B</a>&nbsp;<a href="#I:C">C</a>&nbsp;<a href="#I:D">D</a>&nbsp;<a href="#I:E">E</a>&nbsp;<a href="#I:F">F</a>&nbsp;<a href="#I:G">G</a>&nbsp;<a href="#I:H">H</a>&nbsp;<a href="#I:I">I</a>&nbsp;<a href="#I:J">J</a>&nbsp;<a href="#I:K">K</a>&nbsp;<a href="#I:L">L</a>&nbsp;<a href="#I:M">M</a>&nbsp;<a href="#I:N">N</a>&nbsp;<a href="#I:O">O</a>&nbsp;<a href="#I:P">P</a>&nbsp;<a href="#I:R">R</a>&nbsp;<a href="#I:S">S</a>&nbsp;<a href="#I:T">T</a>&nbsp;<a href="#I:U">U</a>&nbsp;<a href="#I:V">V</a>&nbsp;<a href="#I:W">W</a>&nbsp;</div>
 <!-- ======= START OF BOTTOM NAVBAR ====== -->
 <div class="bottomNav"><a name="navbar.bottom">
 <!--   -->
