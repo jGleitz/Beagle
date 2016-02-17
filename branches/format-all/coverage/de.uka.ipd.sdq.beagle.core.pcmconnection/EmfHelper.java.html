@@ -64,7 +64,7 @@ public final class EmfHelper {
 <span class="nc" id="L64">			return false;</span>
 		}
 <span class="nc bnc" id="L66" title="All 4 branches missed.">		if (identifier1 instanceof Identifier &amp;&amp; identifier2 instanceof Identifier) {</span>
-<span class="nc" id="L67">			return (((Identifier) identifier1).getId().equals(((Identifier) identifier2).getId()));</span>
+<span class="nc" id="L67">			return ((Identifier) identifier1).getId().equals(((Identifier) identifier2).getId());</span>
 		} else {
 <span class="nc" id="L69">			return EcoreUtil.equals(identifier1, identifier2);</span>
 		}
@@ -151,7 +151,7 @@ public final class EmfHelper {
 <span class="fc" id="L151">			.getExtensionToFactoryMap()</span>
 <span class="fc" id="L152">			.put(Resource.Factory.Registry.DEFAULT_EXTENSION, new XMIResourceFactoryImpl());</span>
 
-<span class="fc" id="L154">		final URI myURI = URI.createURI(fileName);</span>
+<span class="fc" id="L154">		final URI myURI = URI.createFileURI(fileName);</span>
 
 <span class="fc" id="L156">		final Resource resource = resourceSet.createResource(myURI);</span>
 <span class="fc" id="L157">		resource.getContents().add(modelToSave);</span>
