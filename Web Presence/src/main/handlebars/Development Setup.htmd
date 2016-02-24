@@ -72,7 +72,7 @@ You’ll obviously first need to install LyX and LaTeX.
       * run `sudo texhash`
     
     * On Windows (with MiKTeX):
-      * copy the contents of `KITbase/tex/latex/KIT` and `KITbeamer/tex/latex/KIT` to  `C:\Program Files (x86)\MiKTeX 2.9\tex\latex\misc\KIT`. 
+      * copy the contents of `KITbase/tex/latex/KIT` and `KITbeamer/tex/latex/KIT` to your `texmf` folder (which must be added in MixTeX settings -> Roots). 
       * Launch "MiKTeX Settings" and hit "Refresh FNDB" 
   
   * Install the LyX layout files `Documentation/Dependencies/sqthesis.layout` and `Documentation/Dependencies/KIT-Beamer.layout`.
