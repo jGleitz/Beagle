@@ -189,7 +189,7 @@ import java.util.HashMap;
 <span class="nc" id="L189">			throw new NullPointerException(&quot;Parameter of getPcmIdOf should not be null!&quot;);</span>
 		}
 <span class="nc bnc" id="L191" title="All 4 branches missed.">		if (this.hasPcmIdOf(rdia) &amp;&amp; !this.getPcmIdOf(rdia).equals(identifier)) {</span>
-<span class="nc" id="L192">			throw new IllegalStateException();</span>
+			// throw new IllegalStateException();
 		}
 <span class="nc" id="L194">		this.rdiaMap.put(rdia, identifier);</span>
 <span class="nc" id="L195">	}</span>
