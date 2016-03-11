@@ -138,14 +138,16 @@ implements <a href="../../../../../../../de/uka/ipd/sdq/beagle/core/BlackboardSt
 <th class="colOne" scope="col">Constructor and Description</th>
 </tr>
 <tr class="altColor">
-<td class="colOne"><code><span class="memberNameLink"><a href="../../../../../../../de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactoryAdder.html#PcmRepositoryBlackboardFactoryAdder-java.io.File-de.uka.ipd.sdq.beagle.core.facade.SourceCodeFileProvider-">PcmRepositoryBlackboardFactoryAdder</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;pcmRepositoryFiles,
-                                   <a href="../../../../../../../de/uka/ipd/sdq/beagle/core/facade/SourceCodeFileProvider.html" title="interface in de.uka.ipd.sdq.beagle.core.facade">SourceCodeFileProvider</a>&nbsp;sourceCodeFileProvider)</code>
+<td class="colOne"><code><span class="memberNameLink"><a href="../../../../../../../de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactoryAdder.html#PcmRepositoryBlackboardFactoryAdder-java.io.File-de.uka.ipd.sdq.beagle.core.facade.SourceCodeFileProvider-de.uka.ipd.sdq.beagle.core.pcmsourcestatementlink.PcmSourceStatementLinkRepository-">PcmRepositoryBlackboardFactoryAdder</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;pcmRepositoryFiles,
+                                   <a href="../../../../../../../de/uka/ipd/sdq/beagle/core/facade/SourceCodeFileProvider.html" title="interface in de.uka.ipd.sdq.beagle.core.facade">SourceCodeFileProvider</a>&nbsp;sourceCodeFileProvider,
+                                   de.uka.ipd.sdq.beagle.core.pcmsourcestatementlink.PcmSourceStatementLinkRepository&nbsp;sourceStatementLinkRepository)</code>
 <div class="block">Creates a factory that will search the provided PCM file for <em>PCM elements</em>.</div>
 </td>
 </tr>
 <tr class="rowColor">
-<td class="colOne"><code><span class="memberNameLink"><a href="../../../../../../../de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactoryAdder.html#PcmRepositoryBlackboardFactoryAdder-java.lang.String-de.uka.ipd.sdq.beagle.core.facade.SourceCodeFileProvider-">PcmRepositoryBlackboardFactoryAdder</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;repositoryFileName,
-                                   <a href="../../../../../../../de/uka/ipd/sdq/beagle/core/facade/SourceCodeFileProvider.html" title="interface in de.uka.ipd.sdq.beagle.core.facade">SourceCodeFileProvider</a>&nbsp;sourceCodeFileProvider)</code>
+<td class="colOne"><code><span class="memberNameLink"><a href="../../../../../../../de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactoryAdder.html#PcmRepositoryBlackboardFactoryAdder-java.lang.String-de.uka.ipd.sdq.beagle.core.facade.SourceCodeFileProvider-de.uka.ipd.sdq.beagle.core.pcmsourcestatementlink.PcmSourceStatementLinkRepository-">PcmRepositoryBlackboardFactoryAdder</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;repositoryFileName,
+                                   <a href="../../../../../../../de/uka/ipd/sdq/beagle/core/facade/SourceCodeFileProvider.html" title="interface in de.uka.ipd.sdq.beagle.core.facade">SourceCodeFileProvider</a>&nbsp;sourceCodeFileProvider,
+                                   de.uka.ipd.sdq.beagle.core.pcmsourcestatementlink.PcmSourceStatementLinkRepository&nbsp;sourceStatementLinkRepository)</code>
 <div class="block">Creates a factory that will search the provided PCM files for <em>PCM
  elements</em>.</div>
 </td>
@@ -167,14 +169,14 @@ implements <a href="../../../../../../../de/uka/ipd/sdq/beagle/core/BlackboardSt
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactoryAdder.html#getBlackboardForAllElements-de.uka.ipd.sdq.beagle.core.BlackboardCreator-">getBlackboardForAllElements</a></span>(<a href="../../../../../../../de/uka/ipd/sdq/beagle/core/BlackboardCreator.html" title="class in de.uka.ipd.sdq.beagle.core">BlackboardCreator</a>&nbsp;blackboardFactory)</code>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactoryAdder.html#getBlackboardForAllElements-de.uka.ipd.sdq.beagle.core.facade.BlackboardCreator-">getBlackboardForAllElements</a></span>(<a href="../../../../../../../de/uka/ipd/sdq/beagle/core/facade/BlackboardCreator.html" title="class in de.uka.ipd.sdq.beagle.core.facade">BlackboardCreator</a>&nbsp;blackboardFactory)</code>
 <div class="block">Builds a new blackboard and writes the Beagle objects representing all found
  <em>PCM elements</em> to it.</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactoryAdder.html#getBlackboardForIds-de.uka.ipd.sdq.beagle.core.BlackboardCreator-java.lang.String...-">getBlackboardForIds</a></span>(<a href="../../../../../../../de/uka/ipd/sdq/beagle/core/BlackboardCreator.html" title="class in de.uka.ipd.sdq.beagle.core">BlackboardCreator</a>&nbsp;blackboardFactory,
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactoryAdder.html#getBlackboardForIds-de.uka.ipd.sdq.beagle.core.facade.BlackboardCreator-java.lang.String...-">getBlackboardForIds</a></span>(<a href="../../../../../../../de/uka/ipd/sdq/beagle/core/facade/BlackboardCreator.html" title="class in de.uka.ipd.sdq.beagle.core.facade">BlackboardCreator</a>&nbsp;blackboardFactory,
                    <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>...&nbsp;identifiers)</code>
 <div class="block">Builds a new blackboard and writes the Beagle objects representing <em>PCM
  elements</em> related to <code>ids</code> to it.</div>
@@ -182,8 +184,8 @@ implements <a href="../../../../../../../de/uka/ipd/sdq/beagle/core/BlackboardSt
 </tr>
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactoryAdder.html#getBlackboardForIds-java.util.Collection-de.uka.ipd.sdq.beagle.core.BlackboardCreator-">getBlackboardForIds</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html?is-external=true" title="class or interface in java.util">Collection</a>&lt;<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt;&nbsp;identifiers,
-                   <a href="../../../../../../../de/uka/ipd/sdq/beagle/core/BlackboardCreator.html" title="class in de.uka.ipd.sdq.beagle.core">BlackboardCreator</a>&nbsp;blackboardFactory)</code>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../de/uka/ipd/sdq/beagle/core/pcmconnection/PcmRepositoryBlackboardFactoryAdder.html#getBlackboardForIds-java.util.Collection-de.uka.ipd.sdq.beagle.core.facade.BlackboardCreator-">getBlackboardForIds</a></span>(<a href="https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html?is-external=true" title="class or interface in java.util">Collection</a>&lt;<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt;&nbsp;identifiers,
+                   <a href="../../../../../../../de/uka/ipd/sdq/beagle/core/facade/BlackboardCreator.html" title="class in de.uka.ipd.sdq.beagle.core.facade">BlackboardCreator</a>&nbsp;blackboardFactory)</code>
 <div class="block">Builds a new blackboard and writes the Beagle objects representing <em>PCM
  elements</em> related to <code>ids</code> to it.</div>
 </td>
@@ -210,14 +212,15 @@ implements <a href="../../../../../../../de/uka/ipd/sdq/beagle/core/BlackboardSt
 <!--   -->
 </a>
 <h3>Constructor Detail</h3>
-<a name="PcmRepositoryBlackboardFactoryAdder-java.lang.String-de.uka.ipd.sdq.beagle.core.facade.SourceCodeFileProvider-">
+<a name="PcmRepositoryBlackboardFactoryAdder-java.lang.String-de.uka.ipd.sdq.beagle.core.facade.SourceCodeFileProvider-de.uka.ipd.sdq.beagle.core.pcmsourcestatementlink.PcmSourceStatementLinkRepository-">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>PcmRepositoryBlackboardFactoryAdder</h4>
 <pre>public&nbsp;PcmRepositoryBlackboardFactoryAdder(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;repositoryFileName,
-                                           <a href="../../../../../../../de/uka/ipd/sdq/beagle/core/facade/SourceCodeFileProvider.html" title="interface in de.uka.ipd.sdq.beagle.core.facade">SourceCodeFileProvider</a>&nbsp;sourceCodeFileProvider)</pre>
+                                           <a href="../../../../../../../de/uka/ipd/sdq/beagle/core/facade/SourceCodeFileProvider.html" title="interface in de.uka.ipd.sdq.beagle.core.facade">SourceCodeFileProvider</a>&nbsp;sourceCodeFileProvider,
+                                           de.uka.ipd.sdq.beagle.core.pcmsourcestatementlink.PcmSourceStatementLinkRepository&nbsp;sourceStatementLinkRepository)</pre>
 <div class="block">Creates a factory that will search the provided PCM files for <em>PCM
  elements</em>.</div>
 <dl>
@@ -225,6 +228,8 @@ implements <a href="../../../../../../../de/uka/ipd/sdq/beagle/core/BlackboardSt
 <dd><code>repositoryFileName</code> - PCM repository to load from.</dd>
 <dd><code>sourceCodeFileProvider</code> - The <a href="../../../../../../../de/uka/ipd/sdq/beagle/core/facade/SourceCodeFileProvider.html" title="interface in de.uka.ipd.sdq.beagle.core.facade"><code>SourceCodeFileProvider</code></a> for the project
             under analysis.</dd>
+<dd><code>sourceStatementLinkRepository</code> - The repository containing the linking of
+            seffElements to SourceCode</dd>
 <dt><span class="throwsLabel">Throws:</span></dt>
 <dd><code><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/IllegalArgumentException.html?is-external=true" title="class or interface in java.lang">IllegalArgumentException</a></code> - If input parameter does not represent a valid
              repository file or if repositoryFileName can not be resolved to a valid
@@ -232,24 +237,23 @@ implements <a href="../../../../../../../de/uka/ipd/sdq/beagle/core/BlackboardSt
 </dl>
 </li>
 </ul>
-<a name="PcmRepositoryBlackboardFactoryAdder-java.io.File-de.uka.ipd.sdq.beagle.core.facade.SourceCodeFileProvider-">
+<a name="PcmRepositoryBlackboardFactoryAdder-java.io.File-de.uka.ipd.sdq.beagle.core.facade.SourceCodeFileProvider-de.uka.ipd.sdq.beagle.core.pcmsourcestatementlink.PcmSourceStatementLinkRepository-">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>PcmRepositoryBlackboardFactoryAdder</h4>
 <pre>public&nbsp;PcmRepositoryBlackboardFactoryAdder(<a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html?is-external=true" title="class or interface in java.io">File</a>&nbsp;pcmRepositoryFiles,
-                                           <a href="../../../../../../../de/uka/ipd/sdq/beagle/core/facade/SourceCodeFileProvider.html" title="interface in de.uka.ipd.sdq.beagle.core.facade">SourceCodeFileProvider</a>&nbsp;sourceCodeFileProvider)
-                                    throws <a href="https://docs.oracle.com/javase/8/docs/api/java/io/FileNotFoundException.html?is-external=true" title="class or interface in java.io">FileNotFoundException</a></pre>
+                                           <a href="../../../../../../../de/uka/ipd/sdq/beagle/core/facade/SourceCodeFileProvider.html" title="interface in de.uka.ipd.sdq.beagle.core.facade">SourceCodeFileProvider</a>&nbsp;sourceCodeFileProvider,
+                                           de.uka.ipd.sdq.beagle.core.pcmsourcestatementlink.PcmSourceStatementLinkRepository&nbsp;sourceStatementLinkRepository)</pre>
 <div class="block">Creates a factory that will search the provided PCM file for <em>PCM elements</em>.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>pcmRepositoryFiles</code> - PCM repository file.</dd>
 <dd><code>sourceCodeFileProvider</code> - The <a href="../../../../../../../de/uka/ipd/sdq/beagle/core/facade/SourceCodeFileProvider.html" title="interface in de.uka.ipd.sdq.beagle.core.facade"><code>SourceCodeFileProvider</code></a> for the project
             under analysis.</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="https://docs.oracle.com/javase/8/docs/api/java/io/FileNotFoundException.html?is-external=true" title="class or interface in java.io">FileNotFoundException</a></code> - If repositoryFileName can not be resolved to a valid
-             file</dd>
+<dd><code>sourceStatementLinkRepository</code> - The repository containing the linking of
+            seffElements to SourceCode</dd>
 </dl>
 </li>
 </ul>
@@ -261,13 +265,13 @@ implements <a href="../../../../../../../de/uka/ipd/sdq/beagle/core/BlackboardSt
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a name="getBlackboardForAllElements-de.uka.ipd.sdq.beagle.core.BlackboardCreator-">
+<a name="getBlackboardForAllElements-de.uka.ipd.sdq.beagle.core.facade.BlackboardCreator-">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>getBlackboardForAllElements</h4>
-<pre>public&nbsp;void&nbsp;getBlackboardForAllElements(<a href="../../../../../../../de/uka/ipd/sdq/beagle/core/BlackboardCreator.html" title="class in de.uka.ipd.sdq.beagle.core">BlackboardCreator</a>&nbsp;blackboardFactory)</pre>
+<pre>public&nbsp;void&nbsp;getBlackboardForAllElements(<a href="../../../../../../../de/uka/ipd/sdq/beagle/core/facade/BlackboardCreator.html" title="class in de.uka.ipd.sdq.beagle.core.facade">BlackboardCreator</a>&nbsp;blackboardFactory)</pre>
 <div class="block">Builds a new blackboard and writes the Beagle objects representing all found
  <em>PCM elements</em> to it. Only <em>PCM elements</em> that fulfil the
  restrictions described in the class description will be written.</div>
@@ -279,14 +283,14 @@ implements <a href="../../../../../../../de/uka/ipd/sdq/beagle/core/BlackboardSt
 </dl>
 </li>
 </ul>
-<a name="getBlackboardForIds-java.util.Collection-de.uka.ipd.sdq.beagle.core.BlackboardCreator-">
+<a name="getBlackboardForIds-java.util.Collection-de.uka.ipd.sdq.beagle.core.facade.BlackboardCreator-">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>getBlackboardForIds</h4>
 <pre>public&nbsp;void&nbsp;getBlackboardForIds(<a href="https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html?is-external=true" title="class or interface in java.util">Collection</a>&lt;<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt;&nbsp;identifiers,
-                                <a href="../../../../../../../de/uka/ipd/sdq/beagle/core/BlackboardCreator.html" title="class in de.uka.ipd.sdq.beagle.core">BlackboardCreator</a>&nbsp;blackboardFactory)</pre>
+                                <a href="../../../../../../../de/uka/ipd/sdq/beagle/core/facade/BlackboardCreator.html" title="class in de.uka.ipd.sdq.beagle.core.facade">BlackboardCreator</a>&nbsp;blackboardFactory)</pre>
 <div class="block">Builds a new blackboard and writes the Beagle objects representing <em>PCM
  elements</em> related to <code>ids</code> to it. Only <em>PCM elements</em> that fulfil
  the restrictions described in the class description will be written.
@@ -318,13 +322,13 @@ implements <a href="../../../../../../../de/uka/ipd/sdq/beagle/core/BlackboardSt
 </dl>
 </li>
 </ul>
-<a name="getBlackboardForIds-de.uka.ipd.sdq.beagle.core.BlackboardCreator-java.lang.String...-">
+<a name="getBlackboardForIds-de.uka.ipd.sdq.beagle.core.facade.BlackboardCreator-java.lang.String...-">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>getBlackboardForIds</h4>
-<pre>public&nbsp;void&nbsp;getBlackboardForIds(<a href="../../../../../../../de/uka/ipd/sdq/beagle/core/BlackboardCreator.html" title="class in de.uka.ipd.sdq.beagle.core">BlackboardCreator</a>&nbsp;blackboardFactory,
+<pre>public&nbsp;void&nbsp;getBlackboardForIds(<a href="../../../../../../../de/uka/ipd/sdq/beagle/core/facade/BlackboardCreator.html" title="class in de.uka.ipd.sdq.beagle.core.facade">BlackboardCreator</a>&nbsp;blackboardFactory,
                                 <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>...&nbsp;identifiers)</pre>
 <div class="block">Builds a new blackboard and writes the Beagle objects representing <em>PCM
  elements</em> related to <code>ids</code> to it. Only <em>PCM elements</em> that fulfil
